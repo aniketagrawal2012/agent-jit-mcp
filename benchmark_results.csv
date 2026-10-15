@@ -1,0 +1,1001 @@
+case_id,stratum,catalog_scale,principal_id,mono_tokens,jit_tokens,token_reduction_pct,mono_wire_bytes,jit_wire_bytes,wire_reduction_pct,mono_list_latency_ms,jit_list_latency_ms,tool_call_latency_ms,mono_unauthorized_exposed,jit_unauthorized_executed,execution_status
+1,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3715,1887,49.21,0.119,2.241,1.081,False,False,SUCCESS
+2,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8020,1886,76.48,0.107,0.95,0.751,False,False,SUCCESS
+3,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15195,1887,87.58,0.144,1.023,0.517,False,False,SUCCESS
+4,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29546,1887,93.61,0.209,0.973,0.655,False,False,SUCCESS
+5,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72746,1887,97.41,0.502,1.901,0.791,False,False,SUCCESS
+6,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144746,1887,98.7,0.946,2.402,1.165,False,False,SUCCESS
+7,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3715,1887,49.21,0.067,0.954,0.574,False,False,SUCCESS
+8,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8020,1886,76.48,0.104,0.987,0.736,False,False,SUCCESS
+9,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15195,1887,87.58,0.134,1.318,0.566,False,False,SUCCESS
+10,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.235,0.983,0.677,False,False,SUCCESS
+11,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.49,1.825,0.817,False,False,SUCCESS
+12,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,1.076,2.253,1.093,False,False,SUCCESS
+13,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.075,0.907,0.557,False,False,SUCCESS
+14,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.09,0.851,0.651,False,False,SUCCESS
+15,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.142,0.885,0.502,False,False,SUCCESS
+16,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.228,1.054,0.597,False,False,SUCCESS
+17,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.543,2.062,0.953,False,False,SUCCESS
+18,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.945,2.661,1.248,False,False,SUCCESS
+19,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.084,0.95,0.589,False,False,SUCCESS
+20,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.091,0.865,0.645,False,False,SUCCESS
+21,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.147,1.172,0.713,False,False,SUCCESS
+22,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.26,1.046,0.466,False,False,SUCCESS
+23,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.489,2.159,1.358,False,False,SUCCESS
+24,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.928,2.297,1.207,False,False,SUCCESS
+25,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.062,0.917,0.598,False,False,SUCCESS
+26,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.101,0.927,0.763,False,False,SUCCESS
+27,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.138,0.946,0.652,False,False,SUCCESS
+28,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.237,1.01,0.751,False,False,SUCCESS
+29,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.624,2.126,0.977,False,False,SUCCESS
+30,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.992,2.235,0.885,False,False,SUCCESS
+31,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.067,1.002,0.551,False,False,SUCCESS
+32,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.093,1.404,0.731,False,False,SUCCESS
+33,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.147,0.799,0.428,False,False,SUCCESS
+34,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.22,0.921,0.562,False,False,SUCCESS
+35,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.48,1.741,0.903,False,False,SUCCESS
+36,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.971,2.201,0.853,False,False,SUCCESS
+37,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.065,0.748,0.518,False,False,SUCCESS
+38,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.082,0.671,0.593,False,False,SUCCESS
+39,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.139,0.953,0.493,False,False,SUCCESS
+40,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.242,0.93,0.465,False,False,SUCCESS
+41,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.579,1.874,0.984,False,False,SUCCESS
+42,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.976,2.481,1.1,False,False,SUCCESS
+43,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.068,0.984,0.765,False,False,SUCCESS
+44,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.095,0.802,0.69,False,False,SUCCESS
+45,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.132,1.022,0.578,False,False,SUCCESS
+46,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.256,0.97,0.555,False,False,SUCCESS
+47,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.518,1.768,0.79,False,False,SUCCESS
+48,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.932,2.035,1.055,False,False,SUCCESS
+49,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.075,1.0,0.583,False,False,SUCCESS
+50,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.092,1.747,0.665,False,False,SUCCESS
+51,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.126,0.995,0.565,False,False,SUCCESS
+52,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.241,3.345,4.285,False,False,SUCCESS
+53,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.504,2.183,1.0,False,False,SUCCESS
+54,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.883,3.485,1.138,False,False,SUCCESS
+55,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.068,0.902,0.615,False,False,SUCCESS
+56,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.087,0.708,0.519,False,False,SUCCESS
+57,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.138,1.048,0.565,False,False,SUCCESS
+58,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.228,0.933,0.444,False,False,SUCCESS
+59,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.466,1.708,0.823,False,False,SUCCESS
+60,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.875,2.181,1.443,False,False,SUCCESS
+61,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.073,0.854,0.654,False,False,SUCCESS
+62,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.093,0.783,0.499,False,False,SUCCESS
+63,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.129,1.053,0.853,False,False,SUCCESS
+64,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.241,0.898,0.446,False,False,SUCCESS
+65,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.481,1.741,1.277,False,False,SUCCESS
+66,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.915,2.191,1.292,False,False,SUCCESS
+67,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.076,0.857,0.511,False,False,SUCCESS
+68,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.087,0.77,0.56,False,False,SUCCESS
+69,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.144,1.025,0.625,False,False,SUCCESS
+70,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.227,0.852,0.463,False,False,SUCCESS
+71,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.58,2.058,1.12,False,False,SUCCESS
+72,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.896,2.358,1.04,False,False,SUCCESS
+73,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.066,0.917,0.597,False,False,SUCCESS
+74,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.085,1.06,0.678,False,False,SUCCESS
+75,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.143,1.052,0.526,False,False,SUCCESS
+76,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.216,1.038,0.526,False,False,SUCCESS
+77,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.532,2.314,0.808,False,False,SUCCESS
+78,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.985,3.073,0.831,False,False,SUCCESS
+79,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.069,0.809,0.657,False,False,SUCCESS
+80,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.095,0.931,0.679,False,False,SUCCESS
+81,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.134,0.901,0.531,False,False,SUCCESS
+82,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.235,1.135,0.535,False,False,SUCCESS
+83,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.488,1.873,1.007,False,False,SUCCESS
+84,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.901,3.331,1.016,False,False,SUCCESS
+85,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.064,1.268,0.797,False,False,SUCCESS
+86,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.09,0.972,1.603,False,False,SUCCESS
+87,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.141,0.99,0.523,False,False,SUCCESS
+88,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.217,1.057,0.646,False,False,SUCCESS
+89,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.492,1.903,1.133,False,False,SUCCESS
+90,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.921,2.388,0.933,False,False,SUCCESS
+91,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.07,1.029,0.635,False,False,SUCCESS
+92,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.088,0.959,0.701,False,False,SUCCESS
+93,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.144,0.864,0.453,False,False,SUCCESS
+94,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29547,1888,93.61,0.208,0.951,0.576,False,False,SUCCESS
+95,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72747,1888,97.4,0.477,2.61,0.78,False,False,SUCCESS
+96,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144747,1888,98.7,0.953,2.299,0.956,False,False,SUCCESS
+97,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3716,1888,49.19,0.064,0.818,0.696,False,False,SUCCESS
+98,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8021,1887,76.47,0.086,0.819,0.501,False,False,SUCCESS
+99,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15196,1888,87.58,0.155,0.779,0.42,False,False,SUCCESS
+100,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.204,1.313,0.533,False,False,SUCCESS
+101,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.459,1.98,0.884,False,False,SUCCESS
+102,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.915,2.301,0.994,False,False,SUCCESS
+103,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.066,0.976,0.557,False,False,SUCCESS
+104,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.088,1.148,0.759,False,False,SUCCESS
+105,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.13,0.8,0.422,False,False,SUCCESS
+106,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.208,0.83,0.486,False,False,SUCCESS
+107,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.502,1.877,0.983,False,False,SUCCESS
+108,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.87,2.281,1.099,False,False,SUCCESS
+109,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.073,0.828,0.589,False,False,SUCCESS
+110,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.081,0.887,0.642,False,False,SUCCESS
+111,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.138,0.93,0.542,False,False,SUCCESS
+112,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.215,1.005,0.774,False,False,SUCCESS
+113,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.52,1.943,1.089,False,False,SUCCESS
+114,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.993,2.179,0.899,False,False,SUCCESS
+115,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.071,0.91,0.679,False,False,SUCCESS
+116,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.08,0.935,0.645,False,False,SUCCESS
+117,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.151,0.851,0.501,False,False,SUCCESS
+118,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.209,1.003,0.536,False,False,SUCCESS
+119,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.526,1.723,0.8,False,False,SUCCESS
+120,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.99,2.36,0.993,False,False,SUCCESS
+121,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.068,0.784,0.528,False,False,SUCCESS
+122,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.082,0.787,0.642,False,False,SUCCESS
+123,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.127,1.012,0.586,False,False,SUCCESS
+124,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.237,0.978,0.606,False,False,SUCCESS
+125,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.486,1.699,0.773,False,False,SUCCESS
+126,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.91,2.229,1.097,False,False,SUCCESS
+127,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.07,1.543,2.11,False,False,SUCCESS
+128,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.13,1.192,0.555,False,False,SUCCESS
+129,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.158,1.025,0.678,False,False,SUCCESS
+130,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.215,1.042,0.753,False,False,SUCCESS
+131,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.522,2.095,0.996,False,False,SUCCESS
+132,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.981,2.15,0.96,False,False,SUCCESS
+133,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.073,1.056,0.725,False,False,SUCCESS
+134,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.111,0.924,0.77,False,False,SUCCESS
+135,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.122,0.933,0.498,False,False,SUCCESS
+136,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.246,1.011,0.456,False,False,SUCCESS
+137,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.466,2.743,0.957,False,False,SUCCESS
+138,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.0,2.295,1.07,False,False,SUCCESS
+139,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.073,1.021,0.738,False,False,SUCCESS
+140,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.095,0.995,0.7,False,False,SUCCESS
+141,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.132,0.945,0.826,False,False,SUCCESS
+142,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.236,1.202,0.552,False,False,SUCCESS
+143,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.48,1.804,1.013,False,False,SUCCESS
+144,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.069,2.42,1.104,False,False,SUCCESS
+145,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.071,1.066,0.679,False,False,SUCCESS
+146,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.107,0.805,0.491,False,False,SUCCESS
+147,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.124,0.712,0.656,False,False,SUCCESS
+148,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.224,1.067,0.64,False,False,SUCCESS
+149,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.524,1.712,0.871,False,False,SUCCESS
+150,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.014,2.109,0.898,False,False,SUCCESS
+151,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.075,1.092,0.777,False,False,SUCCESS
+152,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.087,0.988,0.58,False,False,SUCCESS
+153,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.139,0.998,0.72,False,False,SUCCESS
+154,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.244,0.944,0.446,False,False,SUCCESS
+155,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.485,2.05,1.263,False,False,SUCCESS
+156,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.947,2.923,1.847,False,False,SUCCESS
+157,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.084,0.924,0.576,False,False,SUCCESS
+158,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.083,0.803,0.537,False,False,SUCCESS
+159,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.135,0.995,0.616,False,False,SUCCESS
+160,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.222,0.862,0.452,False,False,SUCCESS
+161,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.521,1.902,0.942,False,False,SUCCESS
+162,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.926,2.125,1.496,False,False,SUCCESS
+163,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.058,0.975,0.767,False,False,SUCCESS
+164,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.101,0.936,0.65,False,False,SUCCESS
+165,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.129,1.007,0.583,False,False,SUCCESS
+166,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.244,0.878,0.557,False,False,SUCCESS
+167,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.494,1.894,0.858,False,False,SUCCESS
+168,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.962,2.217,1.178,False,False,SUCCESS
+169,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.059,0.957,0.576,False,False,SUCCESS
+170,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.108,0.934,0.559,False,False,SUCCESS
+171,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.135,1.057,0.729,False,False,SUCCESS
+172,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.236,0.977,0.473,False,False,SUCCESS
+173,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.531,1.882,0.907,False,False,SUCCESS
+174,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.936,2.078,0.885,False,False,SUCCESS
+175,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.093,1.06,0.848,False,False,SUCCESS
+176,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.092,0.892,0.726,False,False,SUCCESS
+177,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.171,0.875,1.976,False,False,SUCCESS
+178,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.217,0.995,0.656,False,False,SUCCESS
+179,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.475,1.928,0.964,False,False,SUCCESS
+180,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.911,2.363,0.887,False,False,SUCCESS
+181,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.084,0.907,0.745,False,False,SUCCESS
+182,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.091,1.076,0.707,False,False,SUCCESS
+183,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.143,0.982,0.656,False,False,SUCCESS
+184,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.233,0.948,0.491,False,False,SUCCESS
+185,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.5,2.463,1.204,False,False,SUCCESS
+186,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.921,2.264,0.917,False,False,SUCCESS
+187,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.056,1.041,0.637,False,False,SUCCESS
+188,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.092,1.099,0.679,False,False,SUCCESS
+189,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.172,0.973,0.613,False,False,SUCCESS
+190,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.275,1.155,0.677,False,False,SUCCESS
+191,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.51,1.955,1.031,False,False,SUCCESS
+192,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.077,2.49,1.038,False,False,SUCCESS
+193,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.074,1.026,0.708,False,False,SUCCESS
+194,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.125,0.966,0.48,False,False,SUCCESS
+195,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.129,0.842,0.521,False,False,SUCCESS
+196,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.227,1.125,0.642,False,False,SUCCESS
+197,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.54,1.918,0.958,False,False,SUCCESS
+198,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.037,3.054,1.321,False,False,SUCCESS
+199,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.084,0.971,0.576,False,False,SUCCESS
+200,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.092,0.729,0.535,False,False,SUCCESS
+201,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.171,1.152,0.625,False,False,SUCCESS
+202,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.263,1.001,0.532,False,False,SUCCESS
+203,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.518,2.069,1.128,False,False,SUCCESS
+204,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.085,2.87,1.133,False,False,SUCCESS
+205,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.073,0.834,0.661,False,False,SUCCESS
+206,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.101,1.034,0.74,False,False,SUCCESS
+207,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.147,0.948,0.627,False,False,SUCCESS
+208,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.23,1.255,0.565,False,False,SUCCESS
+209,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.599,1.859,1.405,False,False,SUCCESS
+210,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.988,2.37,0.916,False,False,SUCCESS
+211,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.076,0.991,0.797,False,False,SUCCESS
+212,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.112,0.947,0.54,False,False,SUCCESS
+213,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.141,1.042,0.6,False,False,SUCCESS
+214,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.269,1.114,0.669,False,False,SUCCESS
+215,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.551,2.076,0.92,False,False,SUCCESS
+216,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.956,3.61,0.908,False,False,SUCCESS
+217,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.132,1.589,0.656,False,False,SUCCESS
+218,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.094,0.856,0.509,False,False,SUCCESS
+219,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.14,0.799,0.981,False,False,SUCCESS
+220,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.248,1.136,0.54,False,False,SUCCESS
+221,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.544,1.829,0.958,False,False,SUCCESS
+222,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.044,2.226,1.079,False,False,SUCCESS
+223,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.073,0.923,0.706,False,False,SUCCESS
+224,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.102,0.858,0.557,False,False,SUCCESS
+225,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.16,1.096,0.684,False,False,SUCCESS
+226,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.239,0.975,0.592,False,False,SUCCESS
+227,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.507,1.991,0.994,False,False,SUCCESS
+228,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.021,2.767,2.54,False,False,SUCCESS
+229,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.073,0.941,1.04,False,False,SUCCESS
+230,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.102,1.074,0.574,False,False,SUCCESS
+231,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.146,1.227,0.769,False,False,SUCCESS
+232,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.251,1.143,0.608,False,False,SUCCESS
+233,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.559,2.183,1.066,False,False,SUCCESS
+234,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.114,2.679,0.962,False,False,SUCCESS
+235,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.08,0.902,0.672,False,False,SUCCESS
+236,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.103,1.042,0.78,False,False,SUCCESS
+237,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.158,1.057,0.671,False,False,SUCCESS
+238,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.235,0.916,0.48,False,False,SUCCESS
+239,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.499,2.339,1.19,False,False,SUCCESS
+240,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.046,2.525,1.424,False,False,SUCCESS
+241,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.087,1.109,0.961,False,False,SUCCESS
+242,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.096,0.955,0.705,False,False,SUCCESS
+243,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.186,1.054,0.657,False,False,SUCCESS
+244,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.285,1.073,0.694,False,False,SUCCESS
+245,Stratum 1: Financial Accounting & GL,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.555,1.903,1.039,False,False,SUCCESS
+246,Stratum 1: Financial Accounting & GL,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,0.943,2.652,1.078,False,False,SUCCESS
+247,Stratum 1: Financial Accounting & GL,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.072,1.137,0.65,False,False,SUCCESS
+248,Stratum 1: Financial Accounting & GL,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.101,0.869,0.625,False,False,SUCCESS
+249,Stratum 1: Financial Accounting & GL,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.146,1.312,0.528,False,False,SUCCESS
+250,Stratum 1: Financial Accounting & GL,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.252,0.998,0.745,False,False,SUCCESS
+251,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.539,2.096,1.432,False,False,SUCCESS
+252,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.01,2.327,0.969,False,False,SUCCESS
+253,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.071,0.92,0.891,False,False,SUCCESS
+254,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.098,1.133,0.64,False,False,SUCCESS
+255,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.141,0.858,0.606,False,False,SUCCESS
+256,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.23,1.067,0.695,False,False,SUCCESS
+257,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.496,2.034,1.5,False,False,SUCCESS
+258,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.976,2.532,0.907,False,False,SUCCESS
+259,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.085,0.985,0.816,False,False,SUCCESS
+260,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.088,0.968,0.588,False,False,SUCCESS
+261,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.176,1.09,0.603,False,False,SUCCESS
+262,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.253,1.184,0.541,False,False,SUCCESS
+263,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.556,2.664,0.972,False,False,SUCCESS
+264,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.052,2.46,0.927,False,False,SUCCESS
+265,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.074,0.946,0.632,False,False,SUCCESS
+266,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.091,1.024,0.685,False,False,SUCCESS
+267,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.185,1.157,0.747,False,False,SUCCESS
+268,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.278,1.387,0.653,False,False,SUCCESS
+269,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.598,2.376,1.128,False,False,SUCCESS
+270,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.966,2.297,0.818,False,False,SUCCESS
+271,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.083,0.999,0.632,False,False,SUCCESS
+272,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.088,0.831,0.663,False,False,SUCCESS
+273,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.153,1.072,0.818,False,False,SUCCESS
+274,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.26,1.209,0.594,False,False,SUCCESS
+275,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.558,2.068,1.206,False,False,SUCCESS
+276,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.954,2.239,1.071,False,False,SUCCESS
+277,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.06,0.983,0.68,False,False,SUCCESS
+278,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.109,0.914,0.537,False,False,SUCCESS
+279,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.14,1.042,0.613,False,False,SUCCESS
+280,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.25,3.965,0.592,False,False,SUCCESS
+281,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.588,2.096,1.197,False,False,SUCCESS
+282,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.105,2.35,1.362,False,False,SUCCESS
+283,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.092,1.05,0.627,False,False,SUCCESS
+284,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.107,1.009,0.806,False,False,SUCCESS
+285,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.149,1.188,0.609,False,False,SUCCESS
+286,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.276,1.203,0.667,False,False,SUCCESS
+287,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.533,2.152,1.369,False,False,SUCCESS
+288,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.058,3.825,1.119,False,False,SUCCESS
+289,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.086,0.981,0.813,False,False,SUCCESS
+290,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.099,1.132,0.82,False,False,SUCCESS
+291,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.147,1.081,0.7,False,False,SUCCESS
+292,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.223,1.18,0.587,False,False,SUCCESS
+293,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.536,3.226,1.099,False,False,SUCCESS
+294,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.048,2.464,1.193,False,False,SUCCESS
+295,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.08,0.969,0.559,False,False,SUCCESS
+296,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.084,0.84,0.759,False,False,SUCCESS
+297,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.152,1.051,0.5,False,False,SUCCESS
+298,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.231,1.066,0.75,False,False,SUCCESS
+299,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.52,2.07,1.201,False,False,SUCCESS
+300,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.033,2.621,1.028,False,False,SUCCESS
+301,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.08,1.212,0.912,False,False,SUCCESS
+302,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.115,1.221,0.656,False,False,SUCCESS
+303,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.146,1.09,0.719,False,False,SUCCESS
+304,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.233,1.209,0.581,False,False,SUCCESS
+305,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.502,1.925,1.119,False,False,SUCCESS
+306,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.078,2.711,1.217,False,False,SUCCESS
+307,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.084,1.138,0.773,False,False,SUCCESS
+308,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.102,1.041,0.747,False,False,SUCCESS
+309,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.146,1.046,0.577,False,False,SUCCESS
+310,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.233,1.223,0.641,False,False,SUCCESS
+311,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.565,2.065,1.095,False,False,SUCCESS
+312,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.977,2.569,1.076,False,False,SUCCESS
+313,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.068,1.198,0.856,False,False,SUCCESS
+314,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.086,1.087,0.666,False,False,SUCCESS
+315,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.156,0.901,0.504,False,False,SUCCESS
+316,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.236,1.102,0.656,False,False,SUCCESS
+317,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.538,2.25,1.229,False,False,SUCCESS
+318,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.044,2.705,1.131,False,False,SUCCESS
+319,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.073,1.004,0.979,False,False,SUCCESS
+320,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.103,1.091,0.801,False,False,SUCCESS
+321,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.382,1.249,0.576,False,False,SUCCESS
+322,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.245,1.169,0.639,False,False,SUCCESS
+323,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.548,2.299,1.222,False,False,SUCCESS
+324,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.13,2.799,1.375,False,False,SUCCESS
+325,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.082,1.164,0.903,False,False,SUCCESS
+326,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.117,1.139,0.833,False,False,SUCCESS
+327,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.168,1.106,0.641,False,False,SUCCESS
+328,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.255,1.289,0.679,False,False,SUCCESS
+329,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.536,1.874,0.967,False,False,SUCCESS
+330,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.994,2.805,0.963,False,False,SUCCESS
+331,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.077,1.424,1.018,False,False,SUCCESS
+332,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.097,1.395,1.094,False,False,SUCCESS
+333,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.161,1.216,0.616,False,False,SUCCESS
+334,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.289,1.23,0.668,False,False,SUCCESS
+335,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.534,2.101,1.078,False,False,SUCCESS
+336,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.03,2.83,1.089,False,False,SUCCESS
+337,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.082,1.162,0.684,False,False,SUCCESS
+338,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.091,1.14,1.102,False,False,SUCCESS
+339,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.172,1.055,0.651,False,False,SUCCESS
+340,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.259,1.27,0.79,False,False,SUCCESS
+341,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.563,2.497,1.192,False,False,SUCCESS
+342,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.127,2.561,1.316,False,False,SUCCESS
+343,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.074,0.939,0.793,False,False,SUCCESS
+344,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.097,1.126,0.669,False,False,SUCCESS
+345,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.165,1.042,0.593,False,False,SUCCESS
+346,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.234,1.212,0.699,False,False,SUCCESS
+347,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.552,1.943,1.106,False,False,SUCCESS
+348,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.959,2.435,1.064,False,False,SUCCESS
+349,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.074,1.145,0.681,False,False,SUCCESS
+350,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.122,1.079,0.889,False,False,SUCCESS
+351,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.144,1.141,0.629,False,False,SUCCESS
+352,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.254,1.331,0.554,False,False,SUCCESS
+353,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.569,2.048,1.068,False,False,SUCCESS
+354,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.116,2.765,1.585,False,False,SUCCESS
+355,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.087,1.125,1.059,False,False,SUCCESS
+356,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.088,1.073,0.765,False,False,SUCCESS
+357,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.162,1.022,0.542,False,False,SUCCESS
+358,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.233,1.31,0.71,False,False,SUCCESS
+359,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.51,2.186,1.101,False,False,SUCCESS
+360,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.124,2.469,0.88,False,False,SUCCESS
+361,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.084,1.142,0.895,False,False,SUCCESS
+362,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.11,1.015,0.641,False,False,SUCCESS
+363,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.161,1.069,0.633,False,False,SUCCESS
+364,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.258,1.043,0.528,False,False,SUCCESS
+365,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.526,2.105,1.291,False,False,SUCCESS
+366,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.1,2.75,0.965,False,False,SUCCESS
+367,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.075,1.078,0.825,False,False,SUCCESS
+368,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.11,0.992,0.749,False,False,SUCCESS
+369,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.16,1.104,0.726,False,False,SUCCESS
+370,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.251,1.023,0.848,False,False,SUCCESS
+371,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.518,2.426,0.989,False,False,SUCCESS
+372,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.971,2.564,1.093,False,False,SUCCESS
+373,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.078,1.111,0.645,False,False,SUCCESS
+374,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.104,1.012,0.683,False,False,SUCCESS
+375,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.153,0.986,0.487,False,False,SUCCESS
+376,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.27,1.246,0.569,False,False,SUCCESS
+377,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.538,2.237,1.164,False,False,SUCCESS
+378,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.017,2.631,1.247,False,False,SUCCESS
+379,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.083,1.285,0.751,False,False,SUCCESS
+380,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.113,1.086,0.858,False,False,SUCCESS
+381,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.158,1.089,0.942,False,False,SUCCESS
+382,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.264,1.441,0.748,False,False,SUCCESS
+383,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.573,2.293,1.391,False,False,SUCCESS
+384,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.979,2.45,1.254,False,False,SUCCESS
+385,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.108,1.066,0.672,False,False,SUCCESS
+386,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.102,1.103,0.641,False,False,SUCCESS
+387,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.162,1.254,0.69,False,False,SUCCESS
+388,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.264,1.25,0.843,False,False,SUCCESS
+389,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.568,2.137,1.124,False,False,SUCCESS
+390,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.949,2.516,1.235,False,False,SUCCESS
+391,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.064,1.209,0.755,False,False,SUCCESS
+392,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.156,1.022,0.703,False,False,SUCCESS
+393,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.148,1.315,0.595,False,False,SUCCESS
+394,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.261,1.15,0.651,False,False,SUCCESS
+395,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.51,2.204,1.45,False,False,SUCCESS
+396,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.12,2.759,1.19,False,False,SUCCESS
+397,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.078,1.148,0.811,False,False,SUCCESS
+398,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.098,0.94,0.695,False,False,SUCCESS
+399,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.191,1.133,0.678,False,False,SUCCESS
+400,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.275,1.363,0.903,False,False,SUCCESS
+401,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.631,2.102,1.013,False,False,SUCCESS
+402,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.003,2.38,0.916,False,False,SUCCESS
+403,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.076,0.95,0.832,False,False,SUCCESS
+404,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.096,1.146,0.721,False,False,SUCCESS
+405,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.176,1.04,0.573,False,False,SUCCESS
+406,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.252,1.267,0.534,False,False,SUCCESS
+407,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.537,1.979,0.986,False,False,SUCCESS
+408,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.032,2.373,0.963,False,False,SUCCESS
+409,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.079,1.355,0.849,False,False,SUCCESS
+410,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.124,0.984,0.74,False,False,SUCCESS
+411,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.147,1.211,0.664,False,False,SUCCESS
+412,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.277,1.245,0.653,False,False,SUCCESS
+413,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.593,2.013,1.007,False,False,SUCCESS
+414,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.043,2.409,0.9,False,False,SUCCESS
+415,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.078,1.081,0.764,False,False,SUCCESS
+416,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.081,1.111,0.703,False,False,SUCCESS
+417,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.165,1.016,0.722,False,False,SUCCESS
+418,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.244,1.793,0.675,False,False,SUCCESS
+419,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.513,2.224,1.034,False,False,SUCCESS
+420,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.061,2.442,0.863,False,False,SUCCESS
+421,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.078,1.28,0.811,False,False,SUCCESS
+422,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.104,1.11,0.626,False,False,SUCCESS
+423,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.138,0.987,0.748,False,False,SUCCESS
+424,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.256,1.029,0.484,False,False,SUCCESS
+425,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.497,2.263,1.212,False,False,SUCCESS
+426,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.016,2.482,1.182,False,False,SUCCESS
+427,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.078,0.99,0.737,False,False,SUCCESS
+428,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.096,0.9,0.819,False,False,SUCCESS
+429,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.185,1.186,0.644,False,False,SUCCESS
+430,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.295,1.392,0.674,False,False,SUCCESS
+431,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.55,2.237,1.135,False,False,SUCCESS
+432,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.078,2.74,1.128,False,False,SUCCESS
+433,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.07,1.135,0.669,False,False,SUCCESS
+434,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.11,1.084,0.733,False,False,SUCCESS
+435,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.157,1.225,0.69,False,False,SUCCESS
+436,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.244,1.307,0.646,False,False,SUCCESS
+437,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.57,1.989,1.343,False,False,SUCCESS
+438,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.036,2.657,1.304,False,False,SUCCESS
+439,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.064,1.204,0.732,False,False,SUCCESS
+440,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.114,1.009,0.743,False,False,SUCCESS
+441,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.17,1.16,0.615,False,False,SUCCESS
+442,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.275,1.42,1.186,False,False,SUCCESS
+443,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.523,1.84,1.106,False,False,SUCCESS
+444,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.96,2.419,1.158,False,False,SUCCESS
+445,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.054,1.154,0.678,False,False,SUCCESS
+446,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.127,0.941,0.693,False,False,SUCCESS
+447,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.187,1.11,0.635,False,False,SUCCESS
+448,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.279,1.203,1.032,False,False,SUCCESS
+449,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.533,2.207,1.067,False,False,SUCCESS
+450,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.938,2.388,1.043,False,False,SUCCESS
+451,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.076,1.658,0.782,False,False,SUCCESS
+452,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.102,0.9,1.043,False,False,SUCCESS
+453,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.155,1.08,0.83,False,False,SUCCESS
+454,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.252,1.215,0.783,False,False,SUCCESS
+455,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.521,2.179,0.942,False,False,SUCCESS
+456,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.014,2.856,1.259,False,False,SUCCESS
+457,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.075,1.079,0.928,False,False,SUCCESS
+458,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.106,1.065,0.681,False,False,SUCCESS
+459,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.158,0.979,0.698,False,False,SUCCESS
+460,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.252,1.124,1.131,False,False,SUCCESS
+461,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.571,2.904,1.291,False,False,SUCCESS
+462,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.963,2.965,1.049,False,False,SUCCESS
+463,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.065,1.097,0.723,False,False,SUCCESS
+464,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.111,0.94,0.944,False,False,SUCCESS
+465,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.145,1.02,0.602,False,False,SUCCESS
+466,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.241,1.21,0.771,False,False,SUCCESS
+467,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.509,2.402,1.133,False,False,SUCCESS
+468,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,0.958,2.643,0.852,False,False,SUCCESS
+469,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.08,1.151,0.8,False,False,SUCCESS
+470,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.106,0.916,0.62,False,False,SUCCESS
+471,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.146,1.057,0.542,False,False,SUCCESS
+472,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.241,1.184,0.547,False,False,SUCCESS
+473,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.577,2.274,1.235,False,False,SUCCESS
+474,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.131,3.317,1.347,False,False,SUCCESS
+475,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.072,5.16,0.834,False,False,SUCCESS
+476,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.105,0.987,0.785,False,False,SUCCESS
+477,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.138,0.987,0.863,False,False,SUCCESS
+478,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.296,2.584,0.896,False,False,SUCCESS
+479,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.565,2.365,1.579,False,False,SUCCESS
+480,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.104,2.635,1.563,False,False,SUCCESS
+481,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.083,1.187,0.742,False,False,SUCCESS
+482,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.117,1.482,0.69,False,False,SUCCESS
+483,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.173,1.32,1.079,False,False,SUCCESS
+484,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.293,1.843,1.205,False,False,SUCCESS
+485,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.57,2.729,1.896,False,False,SUCCESS
+486,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.417,3.006,1.193,False,False,SUCCESS
+487,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.091,1.249,0.853,False,False,SUCCESS
+488,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.119,1.231,0.906,False,False,SUCCESS
+489,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.227,1.422,0.718,False,False,SUCCESS
+490,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.304,1.191,0.921,False,False,SUCCESS
+491,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.574,2.358,1.153,False,False,SUCCESS
+492,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.082,2.656,1.326,False,False,SUCCESS
+493,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.08,1.138,0.91,False,False,SUCCESS
+494,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.093,1.074,1.04,False,False,SUCCESS
+495,Stratum 2: Procurement & AP 3-Way Match,50,aniketagrawal@google.com,3967,585,85.25,15197,2494,83.59,0.181,1.038,0.893,False,False,SUCCESS
+496,Stratum 2: Procurement & AP 3-Way Match,100,aniketagrawal@google.com,7743,585,92.44,29548,2493,91.56,0.387,1.425,1.046,False,False,SUCCESS
+497,Stratum 2: Procurement & AP 3-Way Match,250,aniketagrawal@google.com,19112,585,96.94,72748,2494,96.57,0.554,2.072,1.178,False,False,SUCCESS
+498,Stratum 2: Procurement & AP 3-Way Match,500,aniketagrawal@google.com,38059,585,98.46,144748,2494,98.28,1.159,2.841,1.155,False,False,SUCCESS
+499,Stratum 2: Procurement & AP 3-Way Match,10,aniketagrawal@google.com,946,585,38.16,3717,2494,32.9,0.072,1.185,0.882,False,False,SUCCESS
+500,Stratum 2: Procurement & AP 3-Way Match,25,aniketagrawal@google.com,2079,585,71.86,8022,2494,68.91,0.103,1.08,0.686,False,False,SUCCESS
+501,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.155,1.205,0.709,False,False,SUCCESS
+502,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.248,1.549,0.726,False,False,SUCCESS
+503,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.547,3.24,1.382,False,False,SUCCESS
+504,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.101,4.828,1.013,False,False,SUCCESS
+505,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.09,1.019,0.831,False,False,SUCCESS
+506,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.109,0.94,0.861,False,False,SUCCESS
+507,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.159,1.284,0.887,False,False,SUCCESS
+508,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.27,1.561,0.804,False,False,SUCCESS
+509,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.549,3.36,1.155,False,False,SUCCESS
+510,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.041,4.761,1.271,False,False,SUCCESS
+511,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.089,1.078,0.863,False,False,SUCCESS
+512,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.113,1.044,0.567,False,False,SUCCESS
+513,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.141,1.292,0.674,False,False,SUCCESS
+514,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.245,1.513,0.834,False,False,SUCCESS
+515,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.53,3.31,1.244,False,False,SUCCESS
+516,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.099,5.313,1.282,False,False,SUCCESS
+517,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.08,1.158,0.895,False,False,SUCCESS
+518,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.107,1.275,0.742,False,False,SUCCESS
+519,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.151,1.67,0.874,False,False,SUCCESS
+520,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.276,1.721,0.751,False,False,SUCCESS
+521,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.607,3.566,1.141,False,False,SUCCESS
+522,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.031,5.146,1.366,False,False,SUCCESS
+523,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.075,1.138,0.815,False,False,SUCCESS
+524,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.102,0.894,0.718,False,False,SUCCESS
+525,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.154,1.109,0.713,False,False,SUCCESS
+526,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.252,1.89,0.966,False,False,SUCCESS
+527,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.561,3.339,1.138,False,False,SUCCESS
+528,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.05,5.138,1.117,False,False,SUCCESS
+529,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.067,1.231,0.779,False,False,SUCCESS
+530,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.103,0.944,0.739,False,False,SUCCESS
+531,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.158,1.396,0.97,False,False,SUCCESS
+532,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.285,1.547,0.917,False,False,SUCCESS
+533,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.551,3.549,1.297,False,False,SUCCESS
+534,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.13,5.107,1.21,False,False,SUCCESS
+535,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.074,0.972,0.654,False,False,SUCCESS
+536,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.112,1.004,0.844,False,False,SUCCESS
+537,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.158,1.119,0.736,False,False,SUCCESS
+538,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.261,1.695,0.747,False,False,SUCCESS
+539,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.558,3.167,1.197,False,False,SUCCESS
+540,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.061,5.629,1.195,False,False,SUCCESS
+541,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.082,0.947,0.699,False,False,SUCCESS
+542,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.097,0.864,0.985,False,False,SUCCESS
+543,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.156,1.358,0.596,False,False,SUCCESS
+544,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.295,1.699,0.893,False,False,SUCCESS
+545,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.617,3.194,1.452,False,False,SUCCESS
+546,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.128,5.259,1.106,False,False,SUCCESS
+547,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.078,0.87,0.777,False,False,SUCCESS
+548,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.087,0.917,0.813,False,False,SUCCESS
+549,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.158,1.135,0.612,False,False,SUCCESS
+550,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.25,1.65,0.862,False,False,SUCCESS
+551,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.566,3.511,1.126,False,False,SUCCESS
+552,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.052,4.792,1.004,False,False,SUCCESS
+553,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.08,0.933,1.043,False,False,SUCCESS
+554,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.101,0.892,0.579,False,False,SUCCESS
+555,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.146,1.197,0.701,False,False,SUCCESS
+556,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.262,1.448,0.763,False,False,SUCCESS
+557,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.554,3.136,0.949,False,False,SUCCESS
+558,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.03,4.439,1.405,False,False,SUCCESS
+559,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.064,1.032,0.961,False,False,SUCCESS
+560,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.087,1.175,0.763,False,False,SUCCESS
+561,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.183,1.166,0.833,False,False,SUCCESS
+562,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.262,1.6,0.971,False,False,SUCCESS
+563,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.566,3.335,1.384,False,False,SUCCESS
+564,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.039,5.319,1.197,False,False,SUCCESS
+565,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.082,0.932,0.739,False,False,SUCCESS
+566,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.104,1.084,1.019,False,False,SUCCESS
+567,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.17,1.258,0.912,False,False,SUCCESS
+568,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.283,1.546,0.914,False,False,SUCCESS
+569,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.585,3.322,1.202,False,False,SUCCESS
+570,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,0.993,4.668,1.127,False,False,SUCCESS
+571,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.078,0.982,0.807,False,False,SUCCESS
+572,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.098,0.996,0.798,False,False,SUCCESS
+573,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.15,1.561,0.755,False,False,SUCCESS
+574,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.269,1.556,0.742,False,False,SUCCESS
+575,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.603,3.282,0.925,False,False,SUCCESS
+576,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.026,4.45,1.398,False,False,SUCCESS
+577,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.082,1.738,1.312,False,False,SUCCESS
+578,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.116,0.915,0.678,False,False,SUCCESS
+579,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.158,1.17,0.886,False,False,SUCCESS
+580,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.262,1.576,0.903,False,False,SUCCESS
+581,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.576,3.435,1.366,False,False,SUCCESS
+582,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.031,4.797,1.042,False,False,SUCCESS
+583,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.077,0.894,1.025,False,False,SUCCESS
+584,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.095,1.103,0.659,False,False,SUCCESS
+585,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.14,1.332,0.781,False,False,SUCCESS
+586,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.288,1.407,0.873,False,False,SUCCESS
+587,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.546,3.274,1.354,False,False,SUCCESS
+588,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.053,4.357,0.941,False,False,SUCCESS
+589,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.082,0.971,0.83,False,False,SUCCESS
+590,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.1,1.078,0.542,False,False,SUCCESS
+591,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.144,0.947,0.532,False,False,SUCCESS
+592,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.249,1.471,0.699,False,False,SUCCESS
+593,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.573,3.317,1.262,False,False,SUCCESS
+594,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,0.946,4.712,1.149,False,False,SUCCESS
+595,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.063,0.974,0.899,False,False,SUCCESS
+596,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.146,1.038,0.657,False,False,SUCCESS
+597,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.156,1.193,0.663,False,False,SUCCESS
+598,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.263,1.664,1.012,False,False,SUCCESS
+599,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.548,3.789,1.458,False,False,SUCCESS
+600,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.097,5.033,1.144,False,False,SUCCESS
+601,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.064,0.883,0.917,False,False,SUCCESS
+602,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.117,1.252,0.928,False,False,SUCCESS
+603,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.15,1.26,0.631,False,False,SUCCESS
+604,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.273,1.67,0.903,False,False,SUCCESS
+605,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.553,3.404,1.185,False,False,SUCCESS
+606,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.079,4.886,1.498,False,False,SUCCESS
+607,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.084,0.927,0.82,False,False,SUCCESS
+608,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.106,1.183,0.974,False,False,SUCCESS
+609,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.164,1.267,0.632,False,False,SUCCESS
+610,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.261,1.643,0.753,False,False,SUCCESS
+611,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.581,3.909,1.189,False,False,SUCCESS
+612,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.023,4.931,1.455,False,False,SUCCESS
+613,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.105,0.96,1.17,False,False,SUCCESS
+614,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.111,1.19,0.84,False,False,SUCCESS
+615,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.152,1.056,0.592,False,False,SUCCESS
+616,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.264,1.589,0.804,False,False,SUCCESS
+617,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.538,4.229,1.227,False,False,SUCCESS
+618,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,0.947,4.838,1.24,False,False,SUCCESS
+619,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.083,0.809,0.755,False,False,SUCCESS
+620,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.093,0.906,0.685,False,False,SUCCESS
+621,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.149,1.207,0.583,False,False,SUCCESS
+622,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.23,1.48,0.768,False,False,SUCCESS
+623,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.539,2.942,1.501,False,False,SUCCESS
+624,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.117,5.066,1.234,False,False,SUCCESS
+625,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.082,1.09,0.827,False,False,SUCCESS
+626,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.111,0.898,0.642,False,False,SUCCESS
+627,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.151,1.264,1.171,False,False,SUCCESS
+628,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.278,1.584,0.676,False,False,SUCCESS
+629,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.607,3.477,1.285,False,False,SUCCESS
+630,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.055,5.18,1.542,False,False,SUCCESS
+631,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.076,0.891,0.929,False,False,SUCCESS
+632,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.118,1.127,0.743,False,False,SUCCESS
+633,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.164,2.972,0.778,False,False,SUCCESS
+634,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.275,1.576,0.913,False,False,SUCCESS
+635,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.584,3.363,1.028,False,False,SUCCESS
+636,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.099,5.451,0.931,False,False,SUCCESS
+637,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.074,0.856,0.976,False,False,SUCCESS
+638,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.109,0.948,0.637,False,False,SUCCESS
+639,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.2,1.37,0.642,False,False,SUCCESS
+640,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.242,1.815,1.105,False,False,SUCCESS
+641,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.592,3.422,1.314,False,False,SUCCESS
+642,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.066,4.939,1.153,False,False,SUCCESS
+643,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.066,1.07,0.725,False,False,SUCCESS
+644,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.113,1.093,0.718,False,False,SUCCESS
+645,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.142,1.289,0.639,False,False,SUCCESS
+646,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.277,1.436,0.613,False,False,SUCCESS
+647,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.6,3.331,1.323,False,False,SUCCESS
+648,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.093,4.724,1.184,False,False,SUCCESS
+649,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.082,0.977,0.941,False,False,SUCCESS
+650,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.103,0.917,0.652,False,False,SUCCESS
+651,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.157,1.155,0.831,False,False,SUCCESS
+652,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.266,1.555,0.772,False,False,SUCCESS
+653,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.619,3.197,1.305,False,False,SUCCESS
+654,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.037,5.055,1.472,False,False,SUCCESS
+655,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.082,0.962,0.712,False,False,SUCCESS
+656,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.095,0.856,0.653,False,False,SUCCESS
+657,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.151,1.034,0.739,False,False,SUCCESS
+658,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.25,1.739,0.582,False,False,SUCCESS
+659,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.578,3.297,1.109,False,False,SUCCESS
+660,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.137,4.78,1.285,False,False,SUCCESS
+661,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.089,1.011,0.734,False,False,SUCCESS
+662,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.1,1.157,0.696,False,False,SUCCESS
+663,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.169,1.218,0.751,False,False,SUCCESS
+664,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.248,1.574,0.601,False,False,SUCCESS
+665,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.564,3.606,1.134,False,False,SUCCESS
+666,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.071,5.782,1.343,False,False,SUCCESS
+667,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.097,0.853,1.149,False,False,SUCCESS
+668,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.102,1.064,0.881,False,False,SUCCESS
+669,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.168,1.179,0.692,False,False,SUCCESS
+670,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.287,1.52,0.754,False,False,SUCCESS
+671,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.585,4.204,1.299,False,False,SUCCESS
+672,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.052,5.07,1.483,False,False,SUCCESS
+673,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.088,1.099,0.765,False,False,SUCCESS
+674,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.109,0.927,0.777,False,False,SUCCESS
+675,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.156,1.384,0.678,False,False,SUCCESS
+676,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.26,1.525,0.728,False,False,SUCCESS
+677,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.608,3.746,1.568,False,False,SUCCESS
+678,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.129,4.856,1.106,False,False,SUCCESS
+679,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.077,1.05,0.762,False,False,SUCCESS
+680,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.102,1.021,0.657,False,False,SUCCESS
+681,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.138,1.231,0.722,False,False,SUCCESS
+682,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.268,1.429,0.778,False,False,SUCCESS
+683,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.565,3.416,1.127,False,False,SUCCESS
+684,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.036,4.928,1.287,False,False,SUCCESS
+685,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.064,1.049,0.815,False,False,SUCCESS
+686,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.122,1.026,0.579,False,False,SUCCESS
+687,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.153,1.271,0.598,False,False,SUCCESS
+688,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.257,1.6,0.82,False,False,SUCCESS
+689,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.566,3.358,1.21,False,False,SUCCESS
+690,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.015,4.978,0.992,False,False,SUCCESS
+691,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.086,0.818,0.639,False,False,SUCCESS
+692,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.131,1.02,0.654,False,False,SUCCESS
+693,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.158,1.212,0.735,False,False,SUCCESS
+694,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.27,1.597,0.55,False,False,SUCCESS
+695,Stratum 3: Master Data & Business Partner,250,secops_admin@google.com,19112,439,97.7,72748,1939,97.33,0.544,3.478,1.121,False,False,SUCCESS
+696,Stratum 3: Master Data & Business Partner,500,secops_admin@google.com,38059,439,98.85,144748,1940,98.66,1.118,4.847,1.161,False,False,SUCCESS
+697,Stratum 3: Master Data & Business Partner,10,secops_admin@google.com,946,439,53.59,3717,1940,47.81,0.122,1.005,0.668,False,False,SUCCESS
+698,Stratum 3: Master Data & Business Partner,25,secops_admin@google.com,2079,439,78.88,8022,1940,75.82,0.093,1.007,0.724,False,False,SUCCESS
+699,Stratum 3: Master Data & Business Partner,50,secops_admin@google.com,3967,439,88.93,15197,1940,87.23,0.157,1.01,0.568,False,False,SUCCESS
+700,Stratum 3: Master Data & Business Partner,100,secops_admin@google.com,7743,439,94.33,29548,1940,93.43,0.27,1.416,0.632,False,False,SUCCESS
+701,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.529,3.483,0.406,False,False,SECURITY_VIOLATION
+702,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.09,5.282,0.384,False,False,SECURITY_VIOLATION
+703,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.099,0.873,0.849,False,False,SECURITY_VIOLATION
+704,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.109,0.975,0.277,False,False,SECURITY_VIOLATION
+705,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.14,0.887,0.274,False,False,SECURITY_VIOLATION
+706,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.229,1.409,0.423,False,False,SECURITY_VIOLATION
+707,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,453,97.63,72748,1995,97.26,0.531,3.314,0.298,False,False,SECURITY_VIOLATION
+708,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.014,5.115,0.371,False,False,SECURITY_VIOLATION
+709,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.082,1.05,0.427,False,False,SECURITY_VIOLATION
+710,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1987,75.23,0.105,1.012,0.451,False,False,SECURITY_VIOLATION
+711,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.163,1.209,0.273,False,False,SECURITY_VIOLATION
+712,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.247,1.623,0.34,False,False,SECURITY_VIOLATION
+713,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.602,3.524,0.383,False,False,SECURITY_VIOLATION
+714,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,453,98.81,144748,1995,98.62,1.619,5.21,0.355,False,False,SECURITY_VIOLATION
+715,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.08,1.021,0.312,False,False,SECURITY_VIOLATION
+716,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.094,0.945,0.352,False,False,SECURITY_VIOLATION
+717,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.139,0.986,0.304,False,False,SECURITY_VIOLATION
+718,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.333,1.328,0.338,False,False,SECURITY_VIOLATION
+719,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.581,3.519,0.342,False,False,SECURITY_VIOLATION
+720,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.073,5.106,0.312,False,False,SECURITY_VIOLATION
+721,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.074,0.761,0.279,False,False,SECURITY_VIOLATION
+722,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.101,0.991,0.385,False,False,SECURITY_VIOLATION
+723,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.17,1.257,0.318,False,False,SECURITY_VIOLATION
+724,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.242,1.585,0.311,False,False,SECURITY_VIOLATION
+725,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.583,3.819,0.895,False,False,SECURITY_VIOLATION
+726,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,2.318,5.498,0.495,False,False,SECURITY_VIOLATION
+727,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.087,1.005,0.401,False,False,SECURITY_VIOLATION
+728,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.113,0.896,0.299,False,False,SECURITY_VIOLATION
+729,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.152,1.341,0.344,False,False,SECURITY_VIOLATION
+730,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.252,1.54,0.386,False,False,SECURITY_VIOLATION
+731,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.653,3.937,0.445,False,False,SECURITY_VIOLATION
+732,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.181,7.405,0.383,False,False,SECURITY_VIOLATION
+733,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.082,1.74,1.075,False,False,SECURITY_VIOLATION
+734,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.119,1.254,0.569,False,False,SECURITY_VIOLATION
+735,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.202,3.554,0.398,False,False,SECURITY_VIOLATION
+736,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.279,3.214,0.463,False,False,SECURITY_VIOLATION
+737,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.678,5.179,0.498,False,False,SECURITY_VIOLATION
+738,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.146,29.255,0.357,False,False,SECURITY_VIOLATION
+739,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.108,1.258,0.485,False,False,SECURITY_VIOLATION
+740,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.132,1.194,0.405,False,False,SECURITY_VIOLATION
+741,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.205,1.578,0.511,False,False,SECURITY_VIOLATION
+742,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1990,93.27,0.346,2.049,0.439,False,False,SECURITY_VIOLATION
+743,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.645,4.169,0.422,False,False,SECURITY_VIOLATION
+744,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.465,6.588,1.014,False,False,SECURITY_VIOLATION
+745,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.101,0.997,0.394,False,False,SECURITY_VIOLATION
+746,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.117,1.145,0.455,False,False,SECURITY_VIOLATION
+747,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.188,1.267,0.373,False,False,SECURITY_VIOLATION
+748,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.312,1.939,0.434,False,False,SECURITY_VIOLATION
+749,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,453,97.63,72748,1995,97.26,0.679,3.966,0.398,False,False,SECURITY_VIOLATION
+750,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.351,6.229,0.353,False,False,SECURITY_VIOLATION
+751,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.126,1.085,0.521,False,False,SECURITY_VIOLATION
+752,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1987,75.23,0.125,1.089,0.431,False,False,SECURITY_VIOLATION
+753,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.199,1.32,0.376,False,False,SECURITY_VIOLATION
+754,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.3,1.718,0.391,False,False,SECURITY_VIOLATION
+755,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.651,3.979,0.544,False,False,SECURITY_VIOLATION
+756,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,453,98.81,144748,1995,98.62,1.473,7.312,0.437,False,False,SECURITY_VIOLATION
+757,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.288,1.203,0.641,False,False,SECURITY_VIOLATION
+758,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.165,1.755,0.473,False,False,SECURITY_VIOLATION
+759,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.187,1.572,0.503,False,False,SECURITY_VIOLATION
+760,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.294,1.813,0.487,False,False,SECURITY_VIOLATION
+761,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.669,4.118,0.407,False,False,SECURITY_VIOLATION
+762,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.274,6.524,0.376,False,False,SECURITY_VIOLATION
+763,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.103,1.1,0.486,False,False,SECURITY_VIOLATION
+764,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.167,1.11,0.65,False,False,SECURITY_VIOLATION
+765,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.442,1.937,0.433,False,False,SECURITY_VIOLATION
+766,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.313,2.423,0.448,False,False,SECURITY_VIOLATION
+767,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.657,4.544,0.343,False,False,SECURITY_VIOLATION
+768,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.248,6.567,0.501,False,False,SECURITY_VIOLATION
+769,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.087,1.272,0.857,False,False,SECURITY_VIOLATION
+770,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.139,1.83,0.418,False,False,SECURITY_VIOLATION
+771,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.184,1.666,0.458,False,False,SECURITY_VIOLATION
+772,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.312,2.271,0.418,False,False,SECURITY_VIOLATION
+773,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.739,4.344,0.43,False,False,SECURITY_VIOLATION
+774,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.256,6.321,0.341,False,False,SECURITY_VIOLATION
+775,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.086,0.899,0.29,False,False,SECURITY_VIOLATION
+776,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.128,1.256,0.479,False,False,SECURITY_VIOLATION
+777,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.215,1.432,0.433,False,False,SECURITY_VIOLATION
+778,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.302,1.761,0.399,False,False,SECURITY_VIOLATION
+779,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.644,4.385,0.5,False,False,SECURITY_VIOLATION
+780,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.361,6.596,0.359,False,False,SECURITY_VIOLATION
+781,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.094,1.066,0.332,False,False,SECURITY_VIOLATION
+782,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.119,1.122,0.373,False,False,SECURITY_VIOLATION
+783,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.176,1.34,0.416,False,False,SECURITY_VIOLATION
+784,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1990,93.27,0.353,1.824,0.401,False,False,SECURITY_VIOLATION
+785,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.722,4.61,0.332,False,False,SECURITY_VIOLATION
+786,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.293,6.376,0.356,False,False,SECURITY_VIOLATION
+787,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.091,1.064,0.293,False,False,SECURITY_VIOLATION
+788,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.13,1.185,0.439,False,False,SECURITY_VIOLATION
+789,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.196,1.341,0.374,False,False,SECURITY_VIOLATION
+790,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.309,1.69,0.386,False,False,SECURITY_VIOLATION
+791,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,453,97.63,72748,1995,97.26,0.679,4.031,0.354,False,False,SECURITY_VIOLATION
+792,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.276,6.053,0.484,False,False,SECURITY_VIOLATION
+793,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.079,0.874,0.525,False,False,SECURITY_VIOLATION
+794,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1987,75.23,0.115,1.096,0.318,False,False,SECURITY_VIOLATION
+795,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.154,1.089,0.422,False,False,SECURITY_VIOLATION
+796,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.341,1.755,0.345,False,False,SECURITY_VIOLATION
+797,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.592,3.8,0.505,False,False,SECURITY_VIOLATION
+798,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,453,98.81,144748,1995,98.62,1.122,5.731,0.311,False,False,SECURITY_VIOLATION
+799,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.092,0.978,0.305,False,False,SECURITY_VIOLATION
+800,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.105,0.906,0.383,False,False,SECURITY_VIOLATION
+801,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.158,1.023,0.346,False,False,SECURITY_VIOLATION
+802,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.354,1.58,0.444,False,False,SECURITY_VIOLATION
+803,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.635,3.845,0.382,False,False,SECURITY_VIOLATION
+804,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.185,5.93,0.332,False,False,SECURITY_VIOLATION
+805,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.081,1.098,0.366,False,False,SECURITY_VIOLATION
+806,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.121,1.023,0.472,False,False,SECURITY_VIOLATION
+807,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.187,1.134,0.369,False,False,SECURITY_VIOLATION
+808,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.289,1.601,0.33,False,False,SECURITY_VIOLATION
+809,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.595,3.614,0.353,False,False,SECURITY_VIOLATION
+810,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.118,5.714,0.396,False,False,SECURITY_VIOLATION
+811,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.068,0.833,0.394,False,False,SECURITY_VIOLATION
+812,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.15,0.868,0.449,False,False,SECURITY_VIOLATION
+813,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.185,1.37,0.383,False,False,SECURITY_VIOLATION
+814,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.323,1.44,0.364,False,False,SECURITY_VIOLATION
+815,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.581,13.896,0.433,False,False,SECURITY_VIOLATION
+816,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.237,5.548,0.319,False,False,SECURITY_VIOLATION
+817,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.082,0.916,0.32,False,False,SECURITY_VIOLATION
+818,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.092,0.845,0.272,False,False,SECURITY_VIOLATION
+819,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.151,1.067,0.27,False,False,SECURITY_VIOLATION
+820,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.237,1.62,0.351,False,False,SECURITY_VIOLATION
+821,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.55,3.279,0.395,False,False,SECURITY_VIOLATION
+822,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.0,5.598,0.384,False,False,SECURITY_VIOLATION
+823,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.091,0.759,0.272,False,False,SECURITY_VIOLATION
+824,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.1,0.996,0.41,False,False,SECURITY_VIOLATION
+825,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.148,1.026,0.375,False,False,SECURITY_VIOLATION
+826,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1990,93.27,0.291,1.563,0.382,False,False,SECURITY_VIOLATION
+827,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.566,3.673,0.405,False,False,SECURITY_VIOLATION
+828,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.109,5.584,0.304,False,False,SECURITY_VIOLATION
+829,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.082,1.028,1.526,False,False,SECURITY_VIOLATION
+830,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.103,1.314,0.497,False,False,SECURITY_VIOLATION
+831,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.163,1.173,0.344,False,False,SECURITY_VIOLATION
+832,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.278,1.542,0.428,False,False,SECURITY_VIOLATION
+833,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,453,97.63,72748,1995,97.26,0.617,3.925,0.286,False,False,SECURITY_VIOLATION
+834,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.033,5.18,0.354,False,False,SECURITY_VIOLATION
+835,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.06,0.781,0.391,False,False,SECURITY_VIOLATION
+836,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1987,75.23,0.121,0.933,0.383,False,False,SECURITY_VIOLATION
+837,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.166,1.178,0.334,False,False,SECURITY_VIOLATION
+838,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.246,1.383,0.408,False,False,SECURITY_VIOLATION
+839,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.57,3.585,0.34,False,False,SECURITY_VIOLATION
+840,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,453,98.81,144748,1995,98.62,1.101,6.439,0.347,False,False,SECURITY_VIOLATION
+841,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.081,0.851,0.363,False,False,SECURITY_VIOLATION
+842,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.09,0.881,0.327,False,False,SECURITY_VIOLATION
+843,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.174,1.183,0.379,False,False,SECURITY_VIOLATION
+844,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.325,1.521,0.362,False,False,SECURITY_VIOLATION
+845,Stratum 4: Scaled Cross-Module Workflows,250,secops_admin@google.com,19112,454,97.62,72748,1996,97.26,0.635,3.512,0.307,False,False,SECURITY_VIOLATION
+846,Stratum 4: Scaled Cross-Module Workflows,500,secops_admin@google.com,38059,454,98.81,144748,1997,98.62,1.209,5.608,0.325,False,False,SECURITY_VIOLATION
+847,Stratum 4: Scaled Cross-Module Workflows,10,secops_admin@google.com,946,513,45.77,3717,2220,40.27,0.11,0.918,0.296,False,False,SECURITY_VIOLATION
+848,Stratum 4: Scaled Cross-Module Workflows,25,secops_admin@google.com,2079,452,78.26,8022,1988,75.22,0.095,1.0,0.438,False,False,SECURITY_VIOLATION
+849,Stratum 4: Scaled Cross-Module Workflows,50,secops_admin@google.com,3967,452,88.61,15197,1990,86.91,0.175,1.225,0.274,False,False,SECURITY_VIOLATION
+850,Stratum 4: Scaled Cross-Module Workflows,100,secops_admin@google.com,7743,452,94.16,29548,1991,93.26,0.275,1.593,0.321,False,False,SECURITY_VIOLATION
+851,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.582,2.11,0.322,True,False,SECURITY_VIOLATION
+852,Stratum 5: Adversarial Privilege Escalation,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.109,2.821,0.401,True,False,SECURITY_VIOLATION
+853,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.078,0.827,0.384,True,False,SECURITY_VIOLATION
+854,Stratum 5: Adversarial Privilege Escalation,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.143,0.985,0.343,True,False,SECURITY_VIOLATION
+855,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.172,0.85,0.305,True,False,SECURITY_VIOLATION
+856,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.25,0.91,0.279,True,False,SECURITY_VIOLATION
+857,Stratum 5: Adversarial Privilege Escalation,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.608,2.005,0.46,True,False,SECURITY_VIOLATION
+858,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.021,2.375,0.298,True,False,SECURITY_VIOLATION
+859,Stratum 5: Adversarial Privilege Escalation,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.076,0.966,0.321,True,False,SECURITY_VIOLATION
+860,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.102,0.807,0.272,True,False,SECURITY_VIOLATION
+861,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.154,0.819,0.409,True,False,SECURITY_VIOLATION
+862,Stratum 5: Adversarial Privilege Escalation,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.271,1.166,0.279,True,False,SECURITY_VIOLATION
+863,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.541,1.879,0.284,True,False,SECURITY_VIOLATION
+864,Stratum 5: Adversarial Privilege Escalation,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.109,2.579,0.336,True,False,SECURITY_VIOLATION
+865,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.07,0.742,0.299,True,False,SECURITY_VIOLATION
+866,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.093,0.838,0.288,True,False,SECURITY_VIOLATION
+867,Stratum 5: Adversarial Privilege Escalation,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.145,0.869,0.383,True,False,SECURITY_VIOLATION
+868,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.26,0.835,0.522,True,False,SECURITY_VIOLATION
+869,Stratum 5: Adversarial Privilege Escalation,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.545,2.137,0.29,True,False,SECURITY_VIOLATION
+870,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.083,2.314,0.284,True,False,SECURITY_VIOLATION
+871,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.056,0.672,0.845,True,False,SECURITY_VIOLATION
+872,Stratum 5: Adversarial Privilege Escalation,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.122,0.968,0.28,True,False,SECURITY_VIOLATION
+873,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.154,0.799,0.312,True,False,SECURITY_VIOLATION
+874,Stratum 5: Adversarial Privilege Escalation,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.264,0.935,0.369,True,False,SECURITY_VIOLATION
+875,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.571,2.023,0.397,True,False,SECURITY_VIOLATION
+876,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.097,2.744,0.345,True,False,SECURITY_VIOLATION
+877,Stratum 5: Adversarial Privilege Escalation,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.082,0.966,0.328,True,False,SECURITY_VIOLATION
+878,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.099,0.723,1.053,True,False,SECURITY_VIOLATION
+879,Stratum 5: Adversarial Privilege Escalation,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.161,1.02,0.359,True,False,SECURITY_VIOLATION
+880,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.247,0.86,0.341,True,False,SECURITY_VIOLATION
+881,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.569,2.092,0.288,True,False,SECURITY_VIOLATION
+882,Stratum 5: Adversarial Privilege Escalation,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.102,2.774,0.443,True,False,SECURITY_VIOLATION
+883,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.077,1.186,0.608,True,False,SECURITY_VIOLATION
+884,Stratum 5: Adversarial Privilege Escalation,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.132,1.255,0.393,True,False,SECURITY_VIOLATION
+885,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.157,1.062,0.352,True,False,SECURITY_VIOLATION
+886,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.264,1.082,0.392,True,False,SECURITY_VIOLATION
+887,Stratum 5: Adversarial Privilege Escalation,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.566,2.117,0.308,True,False,SECURITY_VIOLATION
+888,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.05,2.496,0.262,True,False,SECURITY_VIOLATION
+889,Stratum 5: Adversarial Privilege Escalation,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.086,0.964,0.342,True,False,SECURITY_VIOLATION
+890,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.091,0.805,0.261,True,False,SECURITY_VIOLATION
+891,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.177,0.833,0.356,True,False,SECURITY_VIOLATION
+892,Stratum 5: Adversarial Privilege Escalation,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.237,1.121,0.337,True,False,SECURITY_VIOLATION
+893,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.555,1.979,0.288,True,False,SECURITY_VIOLATION
+894,Stratum 5: Adversarial Privilege Escalation,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.012,2.779,0.291,True,False,SECURITY_VIOLATION
+895,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.071,0.891,0.405,True,False,SECURITY_VIOLATION
+896,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.1,0.771,0.318,True,False,SECURITY_VIOLATION
+897,Stratum 5: Adversarial Privilege Escalation,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.16,0.987,0.571,True,False,SECURITY_VIOLATION
+898,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.27,0.912,0.26,True,False,SECURITY_VIOLATION
+899,Stratum 5: Adversarial Privilege Escalation,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.547,2.186,0.676,True,False,SECURITY_VIOLATION
+900,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.093,2.65,0.417,True,False,SECURITY_VIOLATION
+901,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.069,0.812,0.367,True,False,SECURITY_VIOLATION
+902,Stratum 5: Adversarial Privilege Escalation,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.12,0.98,0.296,True,False,SECURITY_VIOLATION
+903,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.151,0.725,0.323,True,False,SECURITY_VIOLATION
+904,Stratum 5: Adversarial Privilege Escalation,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.265,1.101,0.256,True,False,SECURITY_VIOLATION
+905,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.534,1.929,0.361,True,False,SECURITY_VIOLATION
+906,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.111,2.396,0.326,True,False,SECURITY_VIOLATION
+907,Stratum 5: Adversarial Privilege Escalation,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.08,1.002,0.356,True,False,SECURITY_VIOLATION
+908,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.104,0.77,0.319,True,False,SECURITY_VIOLATION
+909,Stratum 5: Adversarial Privilege Escalation,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.162,0.997,0.362,True,False,SECURITY_VIOLATION
+910,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.26,1.39,0.326,True,False,SECURITY_VIOLATION
+911,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.577,1.963,0.386,True,False,SECURITY_VIOLATION
+912,Stratum 5: Adversarial Privilege Escalation,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.065,2.649,0.327,True,False,SECURITY_VIOLATION
+913,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.093,0.774,0.465,True,False,SECURITY_VIOLATION
+914,Stratum 5: Adversarial Privilege Escalation,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.091,0.895,0.369,True,False,SECURITY_VIOLATION
+915,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.166,0.837,0.327,True,False,SECURITY_VIOLATION
+916,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.29,1.41,3.8,True,False,SECURITY_VIOLATION
+917,Stratum 5: Adversarial Privilege Escalation,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.603,2.149,0.332,True,False,SECURITY_VIOLATION
+918,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.155,2.46,0.324,True,False,SECURITY_VIOLATION
+919,Stratum 5: Adversarial Privilege Escalation,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.076,0.909,0.294,True,False,SECURITY_VIOLATION
+920,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.113,0.842,0.422,True,False,SECURITY_VIOLATION
+921,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.167,1.191,0.366,True,False,SECURITY_VIOLATION
+922,Stratum 5: Adversarial Privilege Escalation,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.26,1.061,0.492,True,False,SECURITY_VIOLATION
+923,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.546,2.02,0.309,True,False,SECURITY_VIOLATION
+924,Stratum 5: Adversarial Privilege Escalation,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.072,2.509,0.362,True,False,SECURITY_VIOLATION
+925,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.06,0.796,0.296,True,False,SECURITY_VIOLATION
+926,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.087,0.622,0.388,True,False,SECURITY_VIOLATION
+927,Stratum 5: Adversarial Privilege Escalation,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.175,0.944,0.287,True,False,SECURITY_VIOLATION
+928,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.249,0.755,0.298,True,False,SECURITY_VIOLATION
+929,Stratum 5: Adversarial Privilege Escalation,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.577,2.41,0.352,True,False,SECURITY_VIOLATION
+930,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.213,2.287,0.271,True,False,SECURITY_VIOLATION
+931,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.085,0.654,0.234,True,False,SECURITY_VIOLATION
+932,Stratum 5: Adversarial Privilege Escalation,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.092,1.069,0.333,True,False,SECURITY_VIOLATION
+933,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.151,0.762,0.338,True,False,SECURITY_VIOLATION
+934,Stratum 5: Adversarial Privilege Escalation,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.258,1.123,0.334,True,False,SECURITY_VIOLATION
+935,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.555,2.091,0.334,True,False,SECURITY_VIOLATION
+936,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.038,2.162,0.675,True,False,SECURITY_VIOLATION
+937,Stratum 5: Adversarial Privilege Escalation,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.072,0.929,0.378,True,False,SECURITY_VIOLATION
+938,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.105,0.891,0.628,True,False,SECURITY_VIOLATION
+939,Stratum 5: Adversarial Privilege Escalation,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.147,0.874,0.416,True,False,SECURITY_VIOLATION
+940,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.281,0.905,0.306,True,False,SECURITY_VIOLATION
+941,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.569,1.987,0.366,True,False,SECURITY_VIOLATION
+942,Stratum 5: Adversarial Privilege Escalation,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.061,2.422,0.383,True,False,SECURITY_VIOLATION
+943,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.074,0.713,0.352,True,False,SECURITY_VIOLATION
+944,Stratum 5: Adversarial Privilege Escalation,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.095,0.77,0.263,True,False,SECURITY_VIOLATION
+945,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.136,0.685,0.325,True,False,SECURITY_VIOLATION
+946,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.264,0.986,0.413,True,False,SECURITY_VIOLATION
+947,Stratum 5: Adversarial Privilege Escalation,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.589,2.127,0.699,True,False,SECURITY_VIOLATION
+948,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.038,2.231,0.275,True,False,SECURITY_VIOLATION
+949,Stratum 5: Adversarial Privilege Escalation,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.087,0.769,0.297,True,False,SECURITY_VIOLATION
+950,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.103,0.785,0.298,True,False,SECURITY_VIOLATION
+951,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.155,0.901,0.35,True,False,SECURITY_VIOLATION
+952,Stratum 5: Adversarial Privilege Escalation,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.257,1.231,1.078,True,False,SECURITY_VIOLATION
+953,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.545,2.012,0.412,True,False,SECURITY_VIOLATION
+954,Stratum 5: Adversarial Privilege Escalation,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.101,2.545,0.268,True,False,SECURITY_VIOLATION
+955,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.061,0.635,0.267,True,False,SECURITY_VIOLATION
+956,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.085,0.644,0.333,True,False,SECURITY_VIOLATION
+957,Stratum 5: Adversarial Privilege Escalation,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.153,0.989,0.324,True,False,SECURITY_VIOLATION
+958,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.296,0.918,0.284,True,False,SECURITY_VIOLATION
+959,Stratum 5: Adversarial Privilege Escalation,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.543,2.15,0.266,True,False,SECURITY_VIOLATION
+960,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.032,2.373,0.264,True,False,SECURITY_VIOLATION
+961,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.08,0.743,0.418,True,False,SECURITY_VIOLATION
+962,Stratum 5: Adversarial Privilege Escalation,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.091,0.928,0.366,True,False,SECURITY_VIOLATION
+963,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.163,0.956,0.26,True,False,SECURITY_VIOLATION
+964,Stratum 5: Adversarial Privilege Escalation,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.258,1.245,0.522,True,False,SECURITY_VIOLATION
+965,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.564,1.906,0.276,True,False,SECURITY_VIOLATION
+966,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.117,2.549,0.3,True,False,SECURITY_VIOLATION
+967,Stratum 5: Adversarial Privilege Escalation,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.082,0.862,0.336,True,False,SECURITY_VIOLATION
+968,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.114,0.793,0.292,True,False,SECURITY_VIOLATION
+969,Stratum 5: Adversarial Privilege Escalation,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.153,0.916,0.389,True,False,SECURITY_VIOLATION
+970,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.25,0.891,0.392,True,False,SECURITY_VIOLATION
+971,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.535,1.903,0.323,True,False,SECURITY_VIOLATION
+972,Stratum 5: Adversarial Privilege Escalation,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.164,2.526,0.407,True,False,SECURITY_VIOLATION
+973,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.079,0.897,0.455,True,False,SECURITY_VIOLATION
+974,Stratum 5: Adversarial Privilege Escalation,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.097,1.004,0.363,True,False,SECURITY_VIOLATION
+975,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.283,1.177,0.37,True,False,SECURITY_VIOLATION
+976,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.265,1.037,0.499,True,False,SECURITY_VIOLATION
+977,Stratum 5: Adversarial Privilege Escalation,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.558,2.538,0.291,True,False,SECURITY_VIOLATION
+978,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.188,2.405,0.313,True,False,SECURITY_VIOLATION
+979,Stratum 5: Adversarial Privilege Escalation,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.076,0.981,0.284,True,False,SECURITY_VIOLATION
+980,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.093,0.688,0.232,True,False,SECURITY_VIOLATION
+981,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.152,0.976,0.295,True,False,SECURITY_VIOLATION
+982,Stratum 5: Adversarial Privilege Escalation,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.295,1.085,0.367,True,False,SECURITY_VIOLATION
+983,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.646,1.913,0.316,True,False,SECURITY_VIOLATION
+984,Stratum 5: Adversarial Privilege Escalation,500,aniketagrawal@google.com,38059,426,98.88,144748,1889,98.69,1.028,2.431,0.239,True,False,SECURITY_VIOLATION
+985,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.067,0.674,0.292,True,False,SECURITY_VIOLATION
+986,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.103,0.732,0.281,True,False,SECURITY_VIOLATION
+987,Stratum 5: Adversarial Privilege Escalation,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.144,1.044,0.256,True,False,SECURITY_VIOLATION
+988,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29548,985,96.67,0.294,0.998,0.318,True,False,SECURITY_VIOLATION
+989,Stratum 5: Adversarial Privilege Escalation,250,aniketagrawal@google.com,19112,426,97.77,72748,1889,97.4,0.573,1.905,0.314,True,False,SECURITY_VIOLATION
+990,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.073,2.393,0.313,True,False,SECURITY_VIOLATION
+991,Stratum 5: Adversarial Privilege Escalation,10,buyer_clerk@deloitte.com,946,188,80.13,3717,985,73.5,0.074,0.865,0.352,True,False,SECURITY_VIOLATION
+992,Stratum 5: Adversarial Privilege Escalation,25,aniketagrawal@google.com,2079,426,79.51,8022,1888,76.46,0.103,0.858,0.44,True,False,SECURITY_VIOLATION
+993,Stratum 5: Adversarial Privilege Escalation,50,buyer_clerk@deloitte.com,3967,188,95.26,15197,985,93.52,0.166,0.879,0.27,True,False,SECURITY_VIOLATION
+994,Stratum 5: Adversarial Privilege Escalation,100,aniketagrawal@google.com,7743,426,94.5,29548,1889,93.61,0.243,1.001,0.628,True,False,SECURITY_VIOLATION
+995,Stratum 5: Adversarial Privilege Escalation,250,buyer_clerk@deloitte.com,19112,188,99.02,72748,985,98.65,0.539,2.01,0.362,True,False,SECURITY_VIOLATION
+996,Stratum 5: Adversarial Privilege Escalation,500,buyer_clerk@deloitte.com,38059,188,99.51,144748,985,99.32,1.057,2.347,0.355,True,False,SECURITY_VIOLATION
+997,Stratum 5: Adversarial Privilege Escalation,10,aniketagrawal@google.com,946,426,54.97,3717,1889,49.18,0.062,0.838,0.335,True,False,SECURITY_VIOLATION
+998,Stratum 5: Adversarial Privilege Escalation,25,buyer_clerk@deloitte.com,2079,188,90.96,8022,984,87.73,0.112,0.831,0.323,True,False,SECURITY_VIOLATION
+999,Stratum 5: Adversarial Privilege Escalation,50,aniketagrawal@google.com,3967,426,89.26,15197,1889,87.57,0.161,0.905,0.335,True,False,SECURITY_VIOLATION
+1000,Stratum 5: Adversarial Privilege Escalation,100,buyer_clerk@deloitte.com,7743,188,97.57,29549,986,96.66,0.297,0.79,0.306,True,False,SECURITY_VIOLATION
