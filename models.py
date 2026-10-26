@@ -102,6 +102,15 @@ class ToolDefinition(BaseModel):
     output_schema: Dict[str, Any] = Field(default_factory=dict, description="OpenAPI v3 JSON Schema output return")
     semantic_tags: List[str] = Field(default_factory=list, description="Vector embedding keywords and category tags")
     estimated_tokens: int = Field(350, description="Approximate token footprint when loaded in context")
+    cost_base: int = Field(40, description="Outer envelope c_hdr + tool name/description Cost_hdr(t)")
+    cost_hdr: int = Field(28, description="Tool name and description header tokens Cost_hdr(t)")
+    cost_params: int = Field(0, description="Accumulated unmasked input parameter tokens Cost_params(t)")
+    cost_out: int = Field(0, description="Accumulated unmasked output property tokens Cost_out(t)")
+    masked_fields: Set[str] = Field(default_factory=set, description="Entity-resolved restriction mask M_restr(t)")
+    compensating_tool_id: Optional[str] = Field(None, description="Registered inverse Saga compensating tool ID")
+    needs_saga_comp: bool = Field(False, description="Whether mutating step executes outside single-changeset batch")
+    comp_required_params: Set[str] = Field(default_factory=set, description="Workflow-mandatory parameters on Comp(t)")
+    comp_required_outputs: Set[str] = Field(default_factory=set, description="Forward output attributes required to parameterize Comp(t)")
 
 
 class CompositeToolStep(BaseModel):
@@ -113,6 +122,10 @@ class CompositeToolStep(BaseModel):
     )
     filter_expression: Optional[str] = Field(None, description="OData $filter expression to apply dynamically")
     select_fields: List[str] = Field(default_factory=list, description="OData $select fields projection")
+    bound_fk_params: Set[str] = Field(default_factory=set, description="Bound foreign-key target parameters BoundFK(sigma_k)")
+    compensating_tool_id: Optional[str] = Field(None, description="Compensating tool ID Comp(sigma_k) or None")
+    needs_saga_comp: bool = Field(False, description="NeedsSagaComp(sigma_k) boolean predicate")
+    binding_modality: str = Field("QUERY_FILTER", description="Downstream binding modality: READ_KEY, QUERY_FILTER, or BATCH_FANOUT")
 
 
 class CompositeToolWrapper(BaseModel):
@@ -121,8 +134,15 @@ class CompositeToolWrapper(BaseModel):
     description: str = Field(..., description="Dynamically synthesized prompt description explaining composite capability")
     steps: List[CompositeToolStep] = Field(default_factory=list, description="Ordered pipeline of atomic service invocations")
     parameters_schema: Dict[str, Any] = Field(default_factory=dict, description="Synthesized unified OpenAPI v3 parameter schema")
+    output_schema: Dict[str, Any] = Field(default_factory=dict, description="Synthesized unified output schema Out'(W_comp)")
     required_roles: Set[str] = Field(default_factory=set, description="Union of all underlying step authorization roles")
     provenance_hash: str = Field(..., description="SHA-256 deterministic hash of the compiled workflow AST")
+    constituent_tool_ids: List[str] = Field(default_factory=list, description="Forward constituent atomic tool IDs Constituents_fwd(W)")
+    intent_tokens: Set[str] = Field(default_factory=set, description="Multi-step workflow intent tokens IntentTokens(W)")
+    role_tokens: Set[str] = Field(default_factory=set, description="CSDL foreign-key role tokens RoleTokens(W)")
+    masked_fields: Set[str] = Field(default_factory=set, description="Unified composite restriction mask M_restr(W_comp)")
+    delta_tok_prefix: int = Field(0, description="Net prefix key-length delta minus eliminated FK parameter tokens")
+    estimated_tokens: int = Field(420, description="Total composite schema token cost Cost(W)")
 
 
 class JITProjectionContext(BaseModel):

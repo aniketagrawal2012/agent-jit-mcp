@@ -9,7 +9,12 @@ Verifies:
 5. Zero-trust containment against unauthorized tool invocation
 """
 
+import os
+import sys
 import unittest
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from agent_jit_mcp.catalog_fixtures import (
     generate_scaled_catalog,
     get_enterprise_entities,
@@ -318,6 +323,150 @@ class TestAgentJITEngine(unittest.TestCase):
         self.assertTrue(adv_res["result"]["isError"])
         self.assertEqual(adv_res["result"]["errorCode"], -32001)
 
+    def test_mandatory_masked_parameter_eviction_and_entity_qualified_mask(self):
+        """Verify tools with restricted mandatory input parameters are evicted fail-closed (Eq. 4)."""
+        attenuator = RoleAttenuationEngine(fail_closed=True)
+        restricted_req_tool = ToolDefinition(
+            tool_id="sap_hr_update_salary",
+            name="sap_hr_update_salary",
+            description="Update employee salary in HR payroll.",
+            service_name="API_JOURNALENTRYITEMBASIC_SRV",
+            entity_name="A_JournalEntryItemBasic",
+            operation=OperationType.READ,
+            required_role="Z_FI_AUDITOR_READ",
+            parameters_schema={
+                "type": "object",
+                "properties": {
+                    "CompanyCode": {"type": "string"},
+                    "EmployeeSalaryMask": {"type": "number"}
+                },
+                "required": ["CompanyCode", "EmployeeSalaryMask"]
+            },
+            output_schema={"type": "object", "properties": {"Status": {"type": "string"}}},
+            semantic_tags=["hr", "salary"],
+            estimated_tokens=300
+        )
+        auth_tools, _ = attenuator.attenuate_tools(self.auditor, [restricted_req_tool] + self.tools)
+        auth_ids = [t.tool_id for t in auth_tools]
+        # Tool with mandatory masked parameter must be evicted fail-closed
+        self.assertNotIn("sap_hr_update_salary", auth_ids)
+
+    def test_bfs_synthesis_and_subpath_coalescing(self):
+        """Verify Stage 2 BFS candidate generation, authorized bridge check, and 1-hop sub-path coalescing."""
+        synthesizer = JITCompositeSynthesizer()
+        attenuator = RoleAttenuationEngine(fail_closed=True)
+        auth_tools, _ = attenuator.attenuate_tools(self.auditor, self.tools)
+        entity_adj = {
+            "A_PurchaseOrder": {"A_SupplierInvoice"},
+            "A_SupplierInvoice": {"A_PurchaseOrder", "A_JournalEntryItemBasic"},
+            "A_JournalEntryItemBasic": {"A_SupplierInvoice", "A_GLAccountBalance"},
+            "A_GLAccountBalance": {"A_JournalEntryItemBasic"},
+        }
+        seeds = {"A_PurchaseOrder", "A_SupplierInvoice", "A_JournalEntryItemBasic"}
+        candidates = synthesizer.synthesize_bfs_candidates(seeds, auth_tools, entity_adj, max_hops=2)
+        self.assertGreater(len(candidates), 0)
+        # All 3 entities are in Seeds(q), so 1-hop sub-paths must be coalesced into a 3-step pipeline
+        max_steps = max(len(c.steps) for c in candidates)
+        self.assertEqual(max_steps, 3)
+
+    def test_saga_compensation_rollback_and_provisional_isolation(self):
+        """Verify Saga rollback invokes compensating tools with 3-attempt retry and PROVISIONAL_PENDING."""
+        synthesizer = JITCompositeSynthesizer()
+        mutating_step_1 = ToolDefinition(
+            tool_id="sap_po_create_draft",
+            name="sap_po_create_draft",
+            description="Create provisional PO header.",
+            service_name="API_PURCHASEORDER_PROCESS_SRV",
+            entity_name="A_PurchaseOrder",
+            operation=OperationType.CREATE,
+            required_role="Z_MM_PURCHASING_CLERK",
+            parameters_schema={"type": "object", "properties": {"CompanyCode": {"type": "string"}}, "required": ["CompanyCode"]},
+            output_schema={"type": "object", "properties": {"PurchaseOrder": {"type": "string"}}},
+            compensating_tool_id="sap_po_cancel_draft",
+            needs_saga_comp=True,
+            comp_required_outputs={"PurchaseOrder"},
+            estimated_tokens=300
+        )
+        mutating_step_2 = ToolDefinition(
+            tool_id="sap_invoice_post_draft",
+            name="sap_invoice_post_draft",
+            description="Post provisional invoice.",
+            service_name="API_SUPPLIERINVOICE_PROCESS_SRV",
+            entity_name="A_SupplierInvoice",
+            operation=OperationType.CREATE,
+            required_role="Z_MM_PURCHASING_CLERK",
+            parameters_schema={"type": "object", "properties": {"PurchaseOrder": {"type": "string"}}, "required": ["PurchaseOrder"]},
+            output_schema={"type": "object", "properties": {"SupplierInvoice": {"type": "string"}}},
+            estimated_tokens=300
+        )
+        comp_tool = ToolDefinition(
+            tool_id="sap_po_cancel_draft",
+            name="sap_po_cancel_draft",
+            description="Cancel provisional PO draft.",
+            service_name="API_PURCHASEORDER_PROCESS_SRV",
+            entity_name="A_PurchaseOrder",
+            operation=OperationType.DELETE,
+            required_role="Z_MM_PURCHASING_CLERK",
+            parameters_schema={"type": "object", "properties": {"PurchaseOrder": {"type": "string"}}, "required": ["PurchaseOrder"]},
+            output_schema={"type": "object", "properties": {"Cancelled": {"type": "boolean"}}},
+            estimated_tokens=250
+        )
+        template = {
+            "pattern_id": "PROVISIONAL_PO_INVOICE",
+            "name": "composite_provisional_po_invoice",
+            "description": "Create provisional PO and post invoice.",
+            "trigger_keywords": {"provisional", "draft"},
+            "seed_entities": {"A_PurchaseOrder", "A_SupplierInvoice"},
+            "steps": [
+                {"entity": "A_PurchaseOrder", "preferred_tool": "sap_po_create_draft"},
+                {"entity": "A_SupplierInvoice", "preferred_tool": "sap_invoice_post_draft", "input_mapping": {"PurchaseOrder": "step_1.PurchaseOrder"}},
+            ]
+        }
+        wrapper = synthesizer.synthesize(
+            template, [mutating_step_1, mutating_step_2, comp_tool], self.auditor
+        )
+        self.assertIsNotNone(wrapper)
+
+        comp_calls = []
+
+        def failing_step2_executor(tid, params):
+            if tid == "sap_po_create_draft":
+                self.assertEqual(params.get("_isolation_state"), "PROVISIONAL_PENDING")
+                self.assertEqual(params.get("VSTAT"), "V")
+                return {"status": "SUCCESS", "PurchaseOrder": "4500099999"}
+            elif tid == "sap_invoice_post_draft":
+                return {"status": "ERROR", "message": "Downstream posting lock failure"}
+            elif tid == "sap_po_cancel_draft":
+                comp_calls.append((tid, params))
+                return {"status": "SUCCESS", "Cancelled": True}
+            return {"status": "SUCCESS"}
+
+        res = synthesizer.execute_composite_pipeline(
+            wrapper, {"CompanyCode": "1000"}, failing_step2_executor
+        )
+        self.assertEqual(res["status"], "SAGA_ROLLED_BACK")
+        self.assertEqual(res["failed_step"], 2)
+        self.assertEqual(len(comp_calls), 1)
+        self.assertEqual(comp_calls[0][1]["PurchaseOrder"], "4500099999")
+        self.assertTrue(len(comp_calls[0][1]["c_idemp"]) == 64)
+
+    def test_parameterless_prior_and_knapsack_rules(self):
+        """Verify parameterless q='' prior ranking and Stage 3 Forward Blocking / Backward Replacement."""
+        pruner = SchemaPruningEngine(token_budget=1200)
+        pruner.build_graph(self.tools, self.entities)
+
+        # Parameterless initialization (q = "")
+        ctx_empty = pruner.prune_and_project(
+            user_goal="",
+            authorized_tools=self.tools[:4],
+            initial_monolithic_count=len(self.tools),
+            session_id="sess_empty_q",
+            principal=self.auditor
+        )
+        self.assertGreater(len(ctx_empty.projected_tools), 0)
+        self.assertLessEqual(ctx_empty.actual_projected_tokens, 1200)
+
 
 if __name__ == "__main__":
     unittest.main()
+

@@ -13,6 +13,7 @@ import time
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
 from agent_jit_mcp.catalog_fixtures import get_enterprise_entities, get_enterprise_tools
+from agent_jit_mcp.erp_database import PersistentERPDatabase
 from agent_jit_mcp.jit_synthesizer import JITCompositeSynthesizer
 from agent_jit_mcp.models import (
     CompositeToolWrapper,
@@ -50,9 +51,51 @@ class AgentJITEngine:
         self.pruner.build_graph(self.catalog, self.entities)
         self.synthesizer = JITCompositeSynthesizer()
         self.spanner_ledger = CloudSpannerAuditLedger()
+        self.erp_db = PersistentERPDatabase()
 
         # In-memory execution registry for dynamic composite tools
         self._active_composites: Dict[str, CompositeToolWrapper] = {}
+
+    def _default_erp_executor(self, tool_id: str, arguments: Dict[str, Any]) -> Dict[str, Any]:
+        """Executes atomic tool calls directly against physical SQLite ERP tables."""
+        if tool_id == "sap_gl_read_balance":
+            rows = self.erp_db.query_gl_balance(
+                arguments.get("CompanyCode", "1000"),
+                arguments.get("GLAccount", "100000"),
+                arguments.get("FiscalYear", "2026"),
+            )
+            return {"status": "SUCCESS", "tool_id": tool_id, "records": rows}
+        elif tool_id == "sap_journal_entry_query_items":
+            rows = self.erp_db.query_journal_entry_items(
+                arguments.get("CompanyCode", "1000"),
+                arguments.get("AccountingDocument"),
+                masked_fields={"EmployeeSalaryMask"},
+            )
+            return {"status": "SUCCESS", "tool_id": tool_id, "records": rows}
+        elif tool_id == "sap_po_get_details":
+            rows = self.erp_db.query_purchase_order(
+                arguments.get("PurchaseOrder", "4500000001"),
+                arguments.get("CompanyCode"),
+            )
+            return {"status": "SUCCESS", "tool_id": tool_id, "records": rows}
+        elif tool_id == "sap_invoice_reconcile_match":
+            rows = self.erp_db.query_supplier_invoice(
+                arguments.get("SupplierInvoice", "5100000001")
+            )
+            return {"status": "SUCCESS", "tool_id": tool_id, "records": rows}
+        elif tool_id == "sap_privileged_disburse_payment_run":
+            res = self.erp_db.execute_payment_run(
+                arguments.get("RunDate", "2026-09-30"),
+                arguments.get("RunIdentification", "DISB01"),
+                float(arguments.get("TotalAmount", 100000.0)),
+                arguments.get("InitiatedBy", "ANIKET"),
+            )
+            return {"status": "SUCCESS", "tool_id": tool_id, "result": res}
+        return {
+            "status": "SUCCESS",
+            "tool_id": tool_id,
+            "result": f"Executed atomic tool {tool_id} against ERP catalog with params {arguments}",
+        }
 
     def project_tools(
         self,
@@ -75,27 +118,33 @@ class AgentJITEngine:
         # Step 2: Check for JIT Composite Synthesis
         synthesized_wrapper: Optional[CompositeToolWrapper] = None
         candidate_tools = list(authorized_tools)
+        local_composites: Dict[str, CompositeToolWrapper] = {}
 
         if self.enable_synthesis:
             template = self.synthesizer.should_synthesize(user_goal, authorized_tools)
             if template:
                 synthesized_wrapper = self.synthesizer.synthesize(template, authorized_tools, principal)
-                self._active_composites[synthesized_wrapper.composite_tool_id] = synthesized_wrapper
+                if synthesized_wrapper is not None:
+                    self._active_composites[synthesized_wrapper.composite_tool_id] = synthesized_wrapper
+                    local_composites[synthesized_wrapper.composite_tool_id] = synthesized_wrapper
 
-                # Wrap composite into a candidate ToolDefinition
-                composite_tool_def = ToolDefinition(
-                    tool_id=synthesized_wrapper.composite_tool_id,
-                    name=synthesized_wrapper.name,
-                    description=synthesized_wrapper.description,
-                    service_name="JIT_SYNTHESIS_PIPELINE",
-                    entity_name=f"Composite_{template['pattern_id']}",
-                    required_role=next(iter(synthesized_wrapper.required_roles)),
-                    parameters_schema=synthesized_wrapper.parameters_schema,
-                    output_schema={"type": "object"},
-                    semantic_tags=["composite", "synthesized", "fast_turn", "jit"],
-                    estimated_tokens=420
-                )
-                candidate_tools.insert(0, composite_tool_def)
+                    # Wrap composite into a candidate ToolDefinition (including delta_tok_prefix)
+                    composite_tool_def = ToolDefinition(
+                        tool_id=synthesized_wrapper.composite_tool_id,
+                        name=synthesized_wrapper.name,
+                        description=synthesized_wrapper.description,
+                        service_name="JIT_SYNTHESIS_PIPELINE",
+                        entity_name=f"Composite_{template['pattern_id']}",
+                        required_role=next(iter(synthesized_wrapper.required_roles)),
+                        parameters_schema=synthesized_wrapper.parameters_schema,
+                        output_schema={"type": "object"},
+                        semantic_tags=(
+                            ["composite", "synthesized", "fast_turn", "jit"]
+                            + list(synthesized_wrapper.intent_tokens)
+                        ),
+                        estimated_tokens=420 + synthesized_wrapper.delta_tok_prefix,
+                    )
+                    candidate_tools.insert(0, composite_tool_def)
 
         # Step 3: Goal-conditioned sub-schema pruning under token budget
         total_catalog_tokens = sum(t.estimated_tokens for t in self.catalog)
@@ -105,10 +154,13 @@ class AgentJITEngine:
             initial_monolithic_count=len(self.catalog),
             session_id=session_id,
             principal=principal,
-            initial_monolithic_tokens=total_catalog_tokens
+            initial_monolithic_tokens=total_catalog_tokens,
+            active_composites=local_composites,
         )
 
-        if synthesized_wrapper:
+        if synthesized_wrapper and any(
+            t.tool_id == synthesized_wrapper.composite_tool_id for t in context.projected_tools
+        ):
             context.synthesis_applied = True
             context.synthesized_tool = synthesized_wrapper
 
@@ -153,15 +205,11 @@ class AgentJITEngine:
         # 2. Check if this is a synthesized composite tool
         if tool_id in self._active_composites:
             wrapper = self._active_composites[tool_id]
-            default_exec = atomic_executor or (lambda tid, p: {"mock_response_for": tid, "params": p, "records": 1})
-            return self.synthesizer.execute_composite_pipeline(wrapper, arguments, default_exec)
+            exec_fn = atomic_executor or self._default_erp_executor
+            return self.synthesizer.execute_composite_pipeline(wrapper, arguments, exec_fn)
 
         # 3. Standard atomic tool execution
         if atomic_executor:
             return atomic_executor(tool_id, arguments)
-        else:
-            return {
-                "status": "SUCCESS",
-                "tool_id": tool_id,
-                "result": f"Executed atomic tool {tool_id} successfully with params {arguments}"
-            }
+        return self._default_erp_executor(tool_id, arguments)
+

@@ -320,8 +320,8 @@ def generate_scaled_catalog(target_size: int = 100) -> List[ToolDefinition]:
     return catalog
 
 
-def get_mock_principals() -> Tuple[UserPrincipal, UserPrincipal, UserPrincipal]:
-    """Returns 3 canonical enterprise user principals with varying privilege levels."""
+def get_enterprise_principals() -> Tuple[UserPrincipal, UserPrincipal, UserPrincipal]:
+    """Returns 3 canonical enterprise user principals with varying PFCG privilege levels."""
     # 1. Auditor Principal (Read-only Finance & AP)
     auditor = UserPrincipal(
         principal_id="aniketagrawal@google.com",
@@ -384,3 +384,7 @@ def get_mock_principals() -> Tuple[UserPrincipal, UserPrincipal, UserPrincipal]:
     )
 
     return auditor, clerk, admin
+
+
+get_mock_principals = get_enterprise_principals
+

@@ -51,14 +51,24 @@ from google.oauth2 import credentials
 
 from agent_jit_mcp.catalog_fixtures import (
     generate_scaled_catalog,
+    get_enterprise_principals,
     get_enterprise_tools,
-    get_mock_principals,
 )
 from agent_jit_mcp.mcp_protocol import MCPProtocolServer
 
+SUPPORTED_GEMINI_ENTERPRISE_MODELS = [
+    "gemini-4-argon",
+    "gemini-3.8-flash",
+    "gemini-3.5-flash",
+    "gemini-2.5-flash",
+]
 
-def get_authenticated_genai_client(location: str = "global") -> genai.Client:
-    """Creates authenticated Google GenAI client targeting project aniket-personal."""
+
+def get_authenticated_genai_client(
+    project_id: str = "aniket-personal",
+    location: str = "global",
+) -> genai.Client:
+    """Creates authenticated Google GenAI client on the Gemini Enterprise Agent Platform."""
     token = subprocess.check_output(
         ["gcloud", "auth", "print-access-token", "--account", "aniketagrawal@google.com"],
         text=True,
@@ -66,10 +76,10 @@ def get_authenticated_genai_client(location: str = "global") -> genai.Client:
     creds = credentials.Credentials(token)
     return genai.Client(
         vertexai=True,
-        project="aniket-personal",
+        project=project_id,
         location=location,
         credentials=creds,
-        http_options={"headers": {"X-Goog-User-Project": "aniket-personal"}},
+        http_options={"headers": {"X-Goog-User-Project": project_id}},
     )
 
 

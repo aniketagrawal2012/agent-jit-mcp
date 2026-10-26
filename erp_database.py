@@ -48,7 +48,8 @@ class PersistentERPDatabase:
 
     def _init_schemas(self):
         """Creates physical tables matching SAP S/4HANA OData v2/v4 entity sets."""
-        with self.get_connection() as conn:
+        conn = self.get_connection()
+        try:
             conn.executescript("""
             CREATE TABLE IF NOT EXISTS A_GLAccountBalance (
                 CompanyCode TEXT NOT NULL,
@@ -107,6 +108,8 @@ class PersistentERPDatabase:
                 PRIMARY KEY (RunDate, RunIdentification)
             );
             """)
+        finally:
+            conn.close()
 
     def _seed_production_records(self):
         """Seeds realistic enterprise ERP data if tables are empty."""
