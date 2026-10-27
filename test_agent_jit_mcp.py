@@ -451,7 +451,7 @@ class TestAgentJITEngine(unittest.TestCase):
         self.assertTrue(len(comp_calls[0][1]["c_idemp"]) == 64)
 
     def test_parameterless_prior_and_knapsack_rules(self):
-        """Verify parameterless q='' prior ranking and Stage 3 Forward Blocking / Backward Replacement."""
+        """Verify parameterless q='' prior ranking, super-additive template prior admission, and Liveness Override."""
         pruner = SchemaPruningEngine(token_budget=1200)
         pruner.build_graph(self.tools, self.entities)
 
@@ -465,6 +465,47 @@ class TestAgentJITEngine(unittest.TestCase):
         )
         self.assertGreater(len(ctx_empty.projected_tools), 0)
         self.assertLessEqual(ctx_empty.actual_projected_tokens, 1200)
+
+        # Verify super-additive template prior admission when optional template prior scoring is enabled on q=""
+        synthesizer = JITCompositeSynthesizer()
+        template = synthesizer.should_synthesize(
+            "Perform 3-way match reconciliation on Purchase Order and Supplier Invoice", self.tools
+        )
+        wrapper = synthesizer.synthesize(template, self.tools, self.auditor)
+        comp_def = ToolDefinition(
+            tool_id=wrapper.composite_tool_id,
+            name=wrapper.name,
+            description=wrapper.description,
+            service_name="JIT_SYNTHESIS_PIPELINE",
+            entity_name="Composite_AP_3WAY_MATCH",
+            required_role="Z_FI_AUDITOR_READ",
+            parameters_schema=wrapper.parameters_schema,
+            output_schema={"type": "object"},
+            semantic_tags=["composite", "jit"],
+            estimated_tokens=420 + wrapper.delta_tok_prefix,
+        )
+        ctx_tmpl = pruner.prune_and_project(
+            user_goal="",
+            authorized_tools=[comp_def] + self.tools[:4],
+            initial_monolithic_count=len(self.tools),
+            session_id="sess_empty_tmpl",
+            principal=self.auditor,
+            active_composites={wrapper.composite_tool_id: wrapper},
+        )
+        projected_ids = [t.tool_id for t in ctx_tmpl.projected_tools]
+        self.assertIn(wrapper.composite_tool_id, projected_ids)
+
+        # Verify Liveness Override emits top prior-density candidate when residual budget B_rem is smaller than all tools
+        tight_pruner = SchemaPruningEngine(token_budget=50)
+        tight_pruner.build_graph(self.tools, self.entities)
+        ctx_liveness = tight_pruner.prune_and_project(
+            user_goal="",
+            authorized_tools=self.tools[:4],
+            initial_monolithic_count=len(self.tools),
+            session_id="sess_liveness",
+            principal=self.auditor,
+        )
+        self.assertEqual(len(ctx_liveness.projected_tools), 1)
 
 
 if __name__ == "__main__":

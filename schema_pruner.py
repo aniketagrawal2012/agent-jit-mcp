@@ -352,20 +352,24 @@ class SchemaPruningEngine:
                 initial_scores, authorized_tools, h_max=2
             )
 
-        # Update composite wrapper utility S(W, q) = max_{t_k in T_W} S(t_k, q) + lambda_syn * (|T_W| - 1)
-        lambda_syn = 0.12
+        # Update composite wrapper utility super-additively (Eq. 8 and Section I parameterless template prior):
+        # S(W, q) = sum_{t_k in Constituents_fwd(W)} S(t_k, q) + Delta_comp
+        # When q = empty: P_prior(W) = sum_{t_k} P_prior(t_k | R_pfcg) + 0.25 * max_{t_k} P_prior(t_k | R_pfcg)
         for tool in authorized_tools:
             if tool.tool_id in composites_map:
                 wrapper = composites_map[tool.tool_id]
                 constituent_ids = wrapper.constituent_tool_ids or [s.tool_id for s in wrapper.steps]
+                sum_const_score = sum(
+                    propagated_scores.get(cid, 0.0) for cid in constituent_ids
+                )
                 max_const_score = max(
                     (propagated_scores.get(cid, 0.0) for cid in constituent_ids),
                     default=initial_scores.get(tool.tool_id, 0.5),
                 )
-                propagated_scores[tool.tool_id] = min(
-                    1.0 + lambda_syn * max(len(constituent_ids) - 1, 1),
-                    max_const_score + lambda_syn * max(len(constituent_ids) - 1, 1),
-                )
+                if is_parameterless:
+                    propagated_scores[tool.tool_id] = sum_const_score + 0.25 * max_const_score
+                else:
+                    propagated_scores[tool.tool_id] = max(sum_const_score, max_const_score) + 0.25
 
         # 3. Stage 3 Greedy Value-Density Knapsack Solver with:
         #    - Rule 1: Forward Blocking
